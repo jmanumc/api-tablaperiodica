@@ -663,7 +663,6 @@ class ElementosTableSeeder extends Seeder
             'nombre' => 'Madveded',
             'masa' => '[281]',
             'electrones' => '2, 8, 18, 32, 32, 16, 2',
-            'tipo_id' => 6,
             'subtipo_id' => 6,
             'estado_id' => 4,
             'grupo_id' => 10,

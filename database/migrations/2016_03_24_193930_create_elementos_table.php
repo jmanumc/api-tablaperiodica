@@ -21,7 +21,7 @@ class CreateElementosTable extends Migration
             $table->string('masa',30);
             $table->string('electrones');
 
-            $table->integer('tipo_id')->unsigned();
+            $table->integer('tipo_id')->unsigned()->nullable();
             $table->foreign('tipo_id')->references('id')->on('tipos');
 
             $table->integer('subtipo_id')->unsigned();
