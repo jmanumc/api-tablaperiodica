@@ -597,6 +597,111 @@ class ElementosTableSeeder extends Seeder
         ]);
 
         DB::table('elementos')->insert([
+            'atomo' => 73,
+            'oxidacion' => '4, 5',
+            'simbolo' => 'Ta',
+            'nombre' => 'Tantalio',
+            'masa' => '180.9479(1)',
+            'electrones' => '2, 8, 18, 32, 11, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 4,
+            'estado_id' => 1,
+            'grupo_id' => 5,
+            'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 74,
+            'oxidacion' => '2, 3, 4, 5, 6',
+            'simbolo' => 'W',
+            'nombre' => 'Tungsteno',
+            'masa' => '183.84(1)',
+            'electrones' => '2, 8, 18, 32, 12, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 4,
+            'estado_id' => 1,
+            'grupo_id' => 6,
+            'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 75,
+            'oxidacion' => '2, 3, 4, 5, 6, 7',
+            'simbolo' => 'Re',
+            'nombre' => 'Renio',
+            'masa' => '186.207(1)',
+            'electrones' => '2, 8, 18, 32, 13, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 4,
+            'estado_id' => 1,
+            'grupo_id' => 7,
+            'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 76,
+            'oxidacion' => '3, 4, 6',
+            'simbolo' => 'Os',
+            'nombre' => 'Osmio',
+            'masa' => '190.23(3)',
+            'electrones' => '2, 8, 18, 32, 14, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 3,
+            'estado_id' => 1,
+            'grupo_id' => 8,
+            'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 77,
+            'oxidacion' => '2, 3, 4, 5, 6',
+            'simbolo' => 'Ir',
+            'nombre' => 'Iridio',
+            'masa' => '192.217(3)',
+            'electrones' => '2, 8, 18, 32, 15, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 3,
+            'estado_id' => 1,
+            'grupo_id' => 9,
+            'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 78,
+            'oxidacion' => '2, 4',
+            'simbolo' => 'Pt',
+            'nombre' => 'Platino',
+            'masa' => '195.078(2)',
+            'electrones' => '2, 8, 18, 32, 17, 1',
+            'tipo_id' => 3,
+            'subtipo_id' => 3,
+            'estado_id' => 1,
+            'grupo_id' => 10,
+            'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 79,
+            'oxidacion' => '1, 3',
+            'simbolo' => 'Au',
+            'nombre' => 'Oro',
+            'masa' => '196.96655(2)',
+            'electrones' => '2, 8, 18, 32, 18, 1',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 1,
+            'grupo_id' => 11,
+            'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
             'atomo' => 80,
             'oxidacion' => '1, 2',
             'simbolo' => 'Hg',
@@ -608,6 +713,51 @@ class ElementosTableSeeder extends Seeder
             'estado_id' => 3,
             'grupo_id' => 12,
             'bloque_id' => 3,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 81,
+            'oxidacion' => '1, 3',
+            'simbolo' => 'Tl',
+            'nombre' => 'Talio',
+            'masa' => '204.3833(2)',
+            'electrones' => '2, 8, 18, 32, 18, 3',
+            'tipo_id' => 2,
+            'subtipo_id' => 1,
+            'estado_id' => 1,
+            'grupo_id' => 13,
+            'bloque_id' => 2,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 82,
+            'oxidacion' => '2, 4',
+            'simbolo' => 'Pb',
+            'nombre' => 'Plomo',
+            'masa' => '207.2(1)',
+            'electrones' => '2, 8, 18, 32, 18, 4',
+            'tipo_id' => 2,
+            'subtipo_id' => 3,
+            'estado_id' => 1,
+            'grupo_id' => 14,
+            'bloque_id' => 2,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 83,
+            'oxidacion' => '±3, 5',
+            'simbolo' => 'Bi',
+            'nombre' => 'Bismuto',
+            'masa' => '208.98038(2)',
+            'electrones' => '2, 8, 18, 32, 18, 5',
+            'tipo_id' => 2,
+            'subtipo_id' => 3,
+            'estado_id' => 1,
+            'grupo_id' => 15,
+            'bloque_id' => 2,
             'periodo_id' => 6
         ]);
 
@@ -642,6 +792,51 @@ class ElementosTableSeeder extends Seeder
         ]);
 
         DB::table('elementos')->insert([
+            'atomo' => 86,
+            'oxidacion' => '2',
+            'simbolo' => 'Rn',
+            'nombre' => 'Radón',
+            'masa' => '[222]',
+            'electrones' => '2, 8, 18, 32, 18, 8',
+            'tipo_id' => 1,
+            'subtipo_id' => 2,
+            'estado_id' => 2,
+            'grupo_id' => 18,
+            'bloque_id' => 2,
+            'periodo_id' => 6
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 87,
+            'oxidacion' => '1',
+            'simbolo' => 'Fr',
+            'nombre' => 'Francio',
+            'masa' => '[223]',
+            'electrones' => '2, 8, 18, 32, 18, 8, 1',
+            'tipo_id' => 2,
+            'subtipo_id' => 1,
+            'estado_id' => 1,
+            'grupo_id' => 1,
+            'bloque_id' => 1,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 88,
+            'oxidacion' => '2',
+            'simbolo' => 'Ra',
+            'nombre' => 'Radio',
+            'masa' => '[226]',
+            'electrones' => '2, 8, 18, 32, 18, 8, 2',
+            'tipo_id' => 2,
+            'subtipo_id' => 1,
+            'estado_id' => 1,
+            'grupo_id' => 2,
+            'bloque_id' => 1,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
             'atomo' => 89,
             'oxidacion' => '3',
             'simbolo' => 'Ac',
@@ -657,8 +852,308 @@ class ElementosTableSeeder extends Seeder
         ]);
 
         DB::table('elementos')->insert([
+            'atomo' => 90,
+            'oxidacion' => '3, 4',
+            'simbolo' => 'Th',
+            'nombre' => 'Torio',
+            'masa' => '232.0381(1)',
+            'electrones' => '2, 8, 18, 32, 18, 10, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 1,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 91,
+            'oxidacion' => '3, 4, 5',
+            'simbolo' => 'Pa',
+            'nombre' => 'Protactinio',
+            'masa' => '231.03588(2)',
+            'electrones' => '2, 8, 18, 32, 20, 9, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 1,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 92,
+            'oxidacion' => '3, 4, 5, 6',
+            'simbolo' => 'U',
+            'nombre' => 'Uranio',
+            'masa' => '238.02891(3)',
+            'electrones' => '2, 8, 18, 32, 21, 9, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 1,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 93,
+            'oxidacion' => '3, 4, 5, 6',
+            'simbolo' => 'Np',
+            'nombre' => 'Neptunio',
+            'masa' => '[237]',
+            'electrones' => '2, 8, 18, 32, 22, 9, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 94,
+            'oxidacion' => '3, 4, 5, 6',
+            'simbolo' => 'Pu',
+            'nombre' => 'Plutonio',
+            'masa' => '[244]',
+            'electrones' => '2, 8, 18, 32, 24, 8, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 95,
+            'oxidacion' => '2, 3, 4, 5, 6',
+            'simbolo' => 'Am',
+            'nombre' => 'Americio',
+            'masa' => '[243]',
+            'electrones' => '2, 8, 18, 32, 25, 8, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 96,
+            'oxidacion' => '3, 4',
+            'simbolo' => 'Cm',
+            'nombre' => 'Curio',
+            'masa' => '[247]',
+            'electrones' => '2, 8, 18, 32, 25, 9, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 97,
+            'oxidacion' => '3, 4',
+            'simbolo' => 'Bk',
+            'nombre' => 'Berkelio',
+            'masa' => '[247]',
+            'electrones' => '2, 8, 18, 32, 27, 8, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 98,
+            'oxidacion' => '2, 3',
+            'simbolo' => 'Cf',
+            'nombre' => 'Californio',
+            'masa' => '[251]',
+            'electrones' => '2, 8, 18, 32, 28, 8, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 99,
+            'oxidacion' => '3',
+            'simbolo' => 'Es',
+            'nombre' => 'Einstenio',
+            'masa' => '[252]',
+            'electrones' => '2, 8, 18, 32, 29, 8, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 100,
+            'oxidacion' => '2, 3',
+            'simbolo' => 'Fm',
+            'nombre' => 'Fermio',
+            'masa' => '[257]',
+            'electrones' => '2, 8, 18, 32, 30, 8, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 101,
+            'oxidacion' => '3',
+            'simbolo' => 'Md',
+            'nombre' => 'Mendelevio',
+            'masa' => '[258]',
+            'electrones' => '2, 8, 18, 32, 31, 8, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 102,
+            'oxidacion' => '2, 3',
+            'simbolo' => 'No',
+            'nombre' => 'Nobelio',
+            'masa' => '[259]',
+            'electrones' => '2, 8, 18, 32, 32, 9, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 103,
+            'oxidacion' => '3',
+            'simbolo' => 'Lr',
+            'nombre' => 'Laurencio',
+            'masa' => '[262]',
+            'electrones' => '2, 8, 18, 32, 32, 9, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 1,
+            'estado_id' => 4,
+            'serie_id' => 2,
+            'bloque_id' => 4,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 104,
+            'oxidacion' => '4',
+            'simbolo' => 'Rf',
+            'nombre' => 'Rutherfordio',
+            'masa' => '[261]',
+            'electrones' => '2, 8, 18, 32, 32, 10, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 4,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 105,
+            'oxidacion' => '5',
+            'simbolo' => 'Db',
+            'nombre' => 'Dubnio',
+            'masa' => '[262]',
+            'electrones' => '2, 8, 18, 32, 32, 11, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 5,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 106,
+            'oxidacion' => '6',
+            'simbolo' => 'Sg',
+            'nombre' => 'Seaborgio',
+            'masa' => '[266]',
+            'electrones' => '2, 8, 18, 32, 32, 12, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 6,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 107,
+            'oxidacion' => '7',
+            'simbolo' => 'Bh',
+            'nombre' => 'Bohrio',
+            'masa' => '[264]',
+            'electrones' => '2, 8, 18, 32, 32, 13, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 7,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 108,
+            'oxidacion' => '3',
+            'simbolo' => 'Hs',
+            'nombre' => 'Hassio',
+            'masa' => '[277]',
+            'electrones' => '2, 8, 18, 32, 32, 14, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 8,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 109,
+            'oxidacion' => '2',
+            'simbolo' => 'Mt',
+            'nombre' => 'Meitnerio',
+            'masa' => '[268]',
+            'electrones' => '2, 8, 18, 32, 32, 15, 2',
+            'tipo_id' => 3,
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 9,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
             'atomo' => 110,
-            'oxidacion' => 's/n',
+            'oxidacion' => '- - -',
             'simbolo' => 'Mv',
             'nombre' => 'Madveded',
             'masa' => '[281]',
@@ -667,6 +1162,118 @@ class ElementosTableSeeder extends Seeder
             'estado_id' => 4,
             'grupo_id' => 10,
             'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 111,
+            'oxidacion' => '- - -',
+            'simbolo' => 'Pl',
+            'nombre' => 'Plutirio',
+            'masa' => '[272]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 11,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 112,
+            'oxidacion' => '- - -',
+            'simbolo' => 'Da',
+            'nombre' => 'Darwanzio',
+            'masa' => '[277]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 12,
+            'bloque_id' => 3,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 113,
+            'oxidacion' => '- - -',
+            'simbolo' => 'Tf',
+            'nombre' => 'Tustrano',
+            'masa' => '[272]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 13,
+            'bloque_id' => 2,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 114,
+            'oxidacion' => '- - -',
+            'simbolo' => 'Eo',
+            'nombre' => 'Eristeneo',
+            'masa' => '[285]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 14,
+            'bloque_id' => 2,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 115,
+            'oxidacion' => '- - -',
+            'simbolo' => 'Me',
+            'nombre' => 'Merchel',
+            'masa' => '[279]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 15,
+            'bloque_id' => 2,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 116,
+            'oxidacion' => '- - -',
+            'simbolo' => 'Nc',
+            'nombre' => 'Nectarten',
+            'masa' => '[289]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 16,
+            'bloque_id' => 2,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 117,
+            'oxidacion' => '- - -',
+            'simbolo' => 'El',
+            'nombre' => 'Efelio',
+            'masa' => '[286]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 17,
+            'bloque_id' => 2,
+            'periodo_id' => 7
+        ]);
+
+        DB::table('elementos')->insert([
+            'atomo' => 118,
+            'oxidacion' => '- - -',
+            'simbolo' => 'On',
+            'nombre' => 'Oberón',
+            'masa' => '[288]',
+            'electrones' => '- - -',
+            'subtipo_id' => 6,
+            'estado_id' => 4,
+            'grupo_id' => 18,
+            'bloque_id' => 2,
             'periodo_id' => 7
         ]);
     }
