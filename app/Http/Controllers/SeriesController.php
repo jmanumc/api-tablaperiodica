@@ -11,7 +11,9 @@ class SeriesController extends Controller
 {
     public function index ()
     {
-    	$series = Serie::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')->get();
+    	$series = Serie::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')
+            ->orderBY('id','asc')
+            ->get();
     	return response()->json($series->toArray());
     }
 

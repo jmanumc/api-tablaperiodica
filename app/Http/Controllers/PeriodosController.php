@@ -10,7 +10,9 @@ use App\Periodo;
 class PeriodosController extends Controller
 {
     public function index () {
-        $periodos = Periodo::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')->get();
+        $periodos = Periodo::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')
+            ->orderBY('id','asc')
+            ->get();
         return response()->json($periodos->toArray());
     }
 

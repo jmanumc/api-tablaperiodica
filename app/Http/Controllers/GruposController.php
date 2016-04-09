@@ -10,7 +10,9 @@ use App\Grupo;
 class GruposController extends Controller
 {
     public function index () {
-    	$grupos = Grupo::with('elementos.tipo','elementos.subtipo','elementos.estado')->get();
+    	$grupos = Grupo::with('elementos.tipo','elementos.subtipo','elementos.estado')
+            ->orderBY('id','asc')
+            ->get();
     	return response()->json($grupos->toArray());
     }
 

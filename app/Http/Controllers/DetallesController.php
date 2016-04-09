@@ -11,7 +11,7 @@ use App\Detalle;
 class DetallesController extends Controller
 {
     public function index () {
-        $detalles = Detalle::all();
+        $detalles = Detalle::orderBY('id','asc')->get();
         return response()->json($detalles->toArray());
     }
 

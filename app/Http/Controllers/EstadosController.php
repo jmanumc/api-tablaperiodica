@@ -10,7 +10,9 @@ use App\Estado;
 class EstadosController extends Controller
 {
     public function index () {
-    	$estados = Estado::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')->get();
+    	$estados = Estado::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')
+            ->orderBY('id','asc')
+            ->get();
     	return response()->json($estados->toArray());
     }
 
