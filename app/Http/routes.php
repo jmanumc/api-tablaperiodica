@@ -25,5 +25,6 @@ Route::group(['middleware' => ['web']], function () {
         Route::resource('series','SeriesController');
         Route::resource('subtipos','SubtiposController');
         Route::resource('elementos','ElementosController');
+        Route::resource('detalles','DetallesController');
     });
 });

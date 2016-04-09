@@ -27,6 +27,6 @@ class CreateBloquesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('bloques');
+        Schema::dropIfExists('bloques');
     }
 }

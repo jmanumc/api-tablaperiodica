@@ -27,6 +27,6 @@ class CreatePeriodosTable extends Migration
      */
     public function down()
     {
-        Schema::drop('periodos');
+        Schema::dropIfExists('periodos');
     }
 }

@@ -27,6 +27,6 @@ class CreateSubtiposTable extends Migration
      */
     public function down()
     {
-        Schema::drop('subtipos');
+        Schema::dropIfExists('subtipos');
     }
 }

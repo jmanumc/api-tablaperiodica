@@ -25,6 +25,7 @@ class Elemento extends Model
         'grupo_id',
         'bloque_id',
         'perido_id',
+        'detalle_id'
     ];
 
     /**
@@ -88,5 +89,13 @@ class Elemento extends Model
     public function periodo()
     {
         return $this->belongsTo('App\Periodo');
+    }
+
+    /**
+     * Devuelve los detalles del elemento.
+     */
+    public function detalle()
+    {
+        return $this->hasOne('App\Detalle');
     }
 }

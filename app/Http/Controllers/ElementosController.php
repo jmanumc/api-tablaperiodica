@@ -25,6 +25,7 @@ class ElementosController extends Controller
     	$elemento->grupo;
     	$elemento->bloque;
     	$elemento->periodo;
+        $elemento->detalle;
     	return response()->json($elemento);
     }
 }

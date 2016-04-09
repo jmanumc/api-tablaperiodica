@@ -27,6 +27,6 @@ class CreateEstadosTable extends Migration
      */
     public function down()
     {
-        Schema::drop('estados');
+        Schema::dropIfExists('estados');
     }
 }

@@ -41,8 +41,6 @@ class CreateElementosTable extends Migration
 
             $table->integer('periodo_id')->unsigned();
             $table->foreign('periodo_id')->references('id')->on('periodos');
-
-            $table->timestamps();
         });
     }
 
@@ -53,6 +51,6 @@ class CreateElementosTable extends Migration
      */
     public function down()
     {
-        Schema::drop('elementos');
+        Schema::dropIfExists('elementos');
     }
 }
