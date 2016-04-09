@@ -14,6 +14,7 @@ class ElementosController extends Controller
     	$elementos = Elemento::with('tipo','subtipo','estado','serie')
             ->orderBY('id','asc')
             ->get();
+
     	return response()->json($elementos->toArray());
     }
 

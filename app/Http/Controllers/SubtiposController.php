@@ -11,9 +11,10 @@ class SubtiposController extends Controller
 {
     public function index ()
     {
-    	$subtipos = Subtipo::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')
-            ->orderBY('id','asc')
-            ->get();
+        $subtipos = Subtipo::with(['elementos' => function ($query) {
+            $query->with('tipo','subtipo','estado','serie')->orderBy('id','asc')->get();
+        }])->orderBy('id','asc')->get();
+
     	return response()->json($subtipos->toArray());
     }
 

@@ -11,9 +11,10 @@ class TiposController extends Controller
 {
     public function index ()
     {
-    	$tipos = Tipo::with('elementos.tipo','elementos.subtipo','elementos.estado','elementos.serie')
-            ->orderBY('id','asc')
-            ->get();
+        $tipos = Tipo::with(['elementos' => function ($query) {
+            $query->with('tipo','subtipo','estado','serie')->orderBy('id','asc')->get();
+        }])->orderBy('id','asc')->get();
+
     	return response()->json($tipos->toArray());
     }
 

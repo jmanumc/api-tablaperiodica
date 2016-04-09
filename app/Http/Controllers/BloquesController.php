@@ -9,7 +9,8 @@ use App\Bloque;
 
 class BloquesController extends Controller
 {
-    public function index () {
+    public function index ()
+    {
         $bloques = Bloque::with(['elementos' => function ($query) {
             $query->with('tipo','subtipo','estado','serie')->orderBy('id','asc')->get();
         }])->orderBy('id','asc')->get();
@@ -17,7 +18,8 @@ class BloquesController extends Controller
         return response()->json($bloques->toArray());
     }
 
-    public function show ($id) {
+    public function show ($id)
+    {
         $bloque = Bloque::findOrFail($id);
             return response()->json($bloque);
     }
