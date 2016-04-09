@@ -11,7 +11,9 @@ class ElementosController extends Controller
 {
     public function index ()
     {
-    	$elementos = Elemento::with('tipo','subtipo','estado','serie')->get();
+    	$elementos = Elemento::with('tipo','subtipo','estado','serie')
+            ->orderBY('id','asc')
+            ->get();
     	return response()->json($elementos->toArray());
     }
 
