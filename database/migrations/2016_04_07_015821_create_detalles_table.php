@@ -17,6 +17,7 @@ class CreateDetallesTable extends Migration
             $table->integer('elemento_id')->unsigned();
             $table->text('aplicacion');
             $table->text('impacto');
+            $table->string('imagen')->default('default.JPG');
 
             $table->foreign('elemento_id')->references('id')->on('elementos');
 

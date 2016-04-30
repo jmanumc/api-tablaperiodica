@@ -13,8 +13,9 @@ class DetallesTableSeeder extends Seeder
     {
         DB::table('detalles')->insert([
             'elemento_id' => 1,
-            'aplicacion' => 'Se necesitan grandes cantidades de H2 en las industrias del petróleo y química.',
-            'impacto' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero cupiditate inventore amet voluptatem impedit debitis reprehenderit veniam quibusdam, rem? Quisquam architecto accusamus nesciunt quia perspiciatis deserunt recusandae pariatur quae quod!'
+            'aplicacion'  => 'Se necesitan grandes cantidades de H2 en las industrias del petróleo y química.',
+            'impacto'     => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero cupiditate inventore amet voluptatem impedit debitis reprehenderit veniam quibusdam, rem? Quisquam architecto accusamus nesciunt quia perspiciatis deserunt recusandae pariatur quae quod!',
+            'imagen'      => '001.JPG'
         ]);
         $this->updateDetalleElemento(1);
     }
