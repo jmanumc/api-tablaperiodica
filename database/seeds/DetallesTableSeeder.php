@@ -101,6 +101,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(10);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 11,
+            'aplicacion' => '<ul><li>El sodio se utiliza para descalcificaci&oacute;n de metales. Esto da el metal una superficie lisa.</li><li>El metal de sodio se utiliza tambi&eacute;n para refinar metales, tales como zirconio y potasio, a partir de sus compuestos.</li><li>El sodio fundido (l&iacute;quido) se utiliza como refrigerante en muchos reactores nucleares. Se puede utilizar individualmente o puede combinarse con potasio.</li></ul>',
+            'impacto' => '<p>Ecotoxicidad: L&iacute;mite Medio de Tolerancia (LMT) para el pez mosquito, 125 ppm/96hr (agua dulce); L&iacute;mite Medio de Tolerancia (LMT) para el pez sol (Lepomis macrochirus), 88 88 mg/48hr (agua del grifo).</p><p>Destino medioambiental: Este compuesto qu&iacute;mico no es m&oacute;vil en su forma s&oacute;lida, aunque absorbe la humedad muy f&aacute;cilmente. Una vez l&iacute;quido, el hidr&oacute;xido de sodio se filtra r&aacute;pidamente en el suelo, con la posibilidad de contaminar las reserves de agua.</p>',
+            'imagen' => '011.JPG'
+        ]);
+        $this->updateDetalleElemento(11);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 12,
+            'aplicacion' => '<ul><li>En el proceso de Kroll, el magnesio se utiliza para obtener titanio.</li><li>El magnesio es a la vez fuerte y ligero. Esto lo hace ideal para su uso en piezas de autom&oacute;viles y camiones. A menudo es aleado con otros metales fuertes (por ejemplo, el aluminio).</li><li>Debido a su bajo peso y buenas propiedades mec&aacute;nicas y el&eacute;ctricas, el magnesio se utiliza para la fabricaci&oacute;n de tel&eacute;fonos m&oacute;viles (tambi&eacute;n llamados tel&eacute;fonos m&oacute;viles), ordenadores port&aacute;tiles y c&aacute;maras. Tambi&eacute;n se puede utilizar para hacer otros componentes el&eacute;ctricos.</li></ul>',
+            'impacto' => '<p>Hay muy poca informaci&oacute;n disponible acerca de los efectos ambientales de los vapores de &oacute;xido de magnesio. Si otros mam&iacute;feros inhalan vapores de &oacute;xido de magnesio, pueden sufrir efectos similares a los de los humanos.</p><p>En un espectro del 0 al 3, los vapores de &oacute;xido de magnesio registran un 0,8 de peligrosidad para el medioambiente. Una puntuaci&oacute;n de 3 representa un peligro muy alto para el medioambiente y una puntuaci&oacute;n de 0 representa un peligro insignificante. Los factores tomados en cuenta para la obtenci&oacute;n de este ranking incluyen el grado de perniciosidad del material y/o su carencia de toxicidad, y la medida de su capacidad de permanecer activo en el medioambiente y si se acumula o no en los organismos vivos. No tiene en cuenta el grado de exposici&oacute;n a la sustancia.</p><p>El polvo de magnesio no es sospechoso de ser altamente da&ntilde;ino para el medioambiente. En forma de &oacute;xido de magnesio se ha establecido una la toxicidad en el agua en 1000 ppm.</p>',
+            'imagen' => '012.JPG'
+        ]);
+        $this->updateDetalleElemento(12);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 13,
+            'aplicacion' => '<ul><li>El aluminio met&aacute;lico es muy &uacute;til para el envasado. Se utiliza para fabricar latas y papel de aluminio.</li><li>El borohidruro de aluminio se a&ntilde;ade al combustible de aviaci&oacute;n.</li><li>El cableado el&eacute;ctrico se hace a veces a partir de aluminio o de una combinaci&oacute;n de aluminio y cobre.</li></ul>',
+            'impacto' => '<p>Los efectos del Aluminio han atraido nuestra atenci&oacute;n, mayormente debido a los problemas de acidificaci&oacute;n. El Aluminio puede acumularse en las plantas y causar problemas de salud a animales que consumen esas plantas. Las concentraciones de Aluminio parecen ser muy altas en lagos acidificados. En estos lagos un n&uacute;mero de peces y anfibios est&aacute;n disminuyendo debido a las reacciones de los iones de Aluminio con las proteinas de las agallas de los peces y los embriones de las ranas</p><p>Las consecuencias para los p&aacute;jaros que consumen peces contaminados es que la c&aacute;scara de los huevos es m&aacute;s fina y los pollitos nacen con bajo peso. Las consecuencias para los animales que respiran el Aluminio a trav&eacute;s del aire son problemas de pulmones, p&eacute;rdida de peso y declinaci&oacute;n de la actividad. Otro efecto negativo en el ambiente del Aluminio es que estos iones pueden reaccionar con los fosfatos, los cuales causan que el fosfato no est&eacute; disponible para los organismos acu&aacute;ticos.</p><p>Altas concentraciones de Aluminio no s&oacute;lo pueden ser encontrados en lagos &aacute;cidos y arie, tambi&eacute;n en aguas subterr&aacute;neas y suelos &aacute;cidos.</p><p>The free online div table generator allows you to create nice grids for your websites. Please subsribe for a html g membership to stop adding promotional messages to the edited documents.</p>',
+            'imagen' => '013.JPG'
+        ]);
+        $this->updateDetalleElemento(13);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 14,
+            'aplicacion' => '<ul><li>El di&oacute;xido de silicio y s&iacute;lice (en forma de arcilla o arena) son componentes importantes de ladrillos, hormig&oacute;n y cemento.</li><li>El silicio es un semiconductor. Esto significa que el flujo el&eacute;ctrico puede ser controlada mediante el uso de partes de silicio. Por lo tanto, el silicio es muy importante en la industria el&eacute;ctrica. Componentes de silicio se utilizan en las computadoras, los transistores, c&eacute;lulas solares, pantallas LCD y otros dispositivos semiconductores.</li><li>La mayor&iacute;a del silicio se utiliza para la fabricaci&oacute;n de aleaciones de aluminio y silicio con el fin de producir piezas fundidas. Las piezas se producen mediante el vertido del material fundido de aluminio y silicio en un molde. Estas piezas de material fundido se utilizan generalmente en la industria del autom&oacute;vil para fabricar piezas para coches.</li></ul>',
+            'impacto' => '<p>No se ha informado de efectos negativos del silicio sobre el medio ambiente.</p>',
+            'imagen' => '014.JPG'
+        ]);
+        $this->updateDetalleElemento(14);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 15,
+            'aplicacion' => '<ul><li>Los fosfatos se utilizan para hacer vidrio especial que se utiliza como en las l&aacute;mparas de sodio.</li><li>El f&oacute;sforo es un nutriente esencial para las plantas, por lo que se a&ntilde;ade a los fertilizantes.</li><li>En el laboratorio, dos is&oacute;topos radiactivos de f&oacute;sforo se puede utilizar como trazadores radiactivos.</li></ul>',
+            'impacto' => '<p><em>F&oacute;sforo blanco:</em>&nbsp;El f&oacute;sforo blanco estra en el ambiente cuando es usado en industrias para hacer otros productos qu&iacute;micos y cuando el ej&eacute;rcito lo usa como munici&oacute;n. A trav&eacute;s de descargas de aguas residuales el f&oacute;sforo blanco termina en las aguas superficiales cerca de las f&aacute;bricas donde es usado.</p><p>El f&oacute;sforo blanco no es probablemente esparcido, porque este reacciona con el ox&iacute;geno bastante r&aacute;pido.</p><p><em>Fosfatos:</em>Los fosfatos tienen muchos efectos sobre los organismos. Los efectos son mayormente consecuencias de las emisiones de grandes cantidades de fosfatos en el ambiente debido a la miner&iacute;a y los cultivos. Durante la purificaci&oacute;n del agua los fosfatos no son a menudo eliminado correctamente, as&iacute; que pueden expandirse a trav&eacute;s de largas distancias cuando se encuentran en la superficie de las aguas.</p>',
+            'imagen' => '015.JPG'
+        ]);
+        $this->updateDetalleElemento(15);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 16,
+            'aplicacion' => '<ul><li>La mayor&iacute;a de azufre se convierte en &aacute;cido sulf&uacute;rico. El &aacute;cido sulf&uacute;rico es extremadamente importante para muchas industrias de todo el mundo. Se utiliza en la fabricaci&oacute;n de fertilizantes, refiner&iacute;as de petr&oacute;leo, tratamiento de aguas residuales, bater&iacute;as de plomo para autom&oacute;viles, extracci&oacute;n de mineral, eliminaci&oacute;n de &oacute;xido de hierro, fabricaci&oacute;n de nylon y producci&oacute;n de &aacute;cido clorh&iacute;drico.</li><li>El azufre puede ser utilizado como un pesticida y fungicida. Muchos agricultores que cultivan alimentos org&aacute;nicos usan azufre como un pesticida natural y fungicida.</li><li>El sulfato de magnesio, que contiene azufre, se utiliza como laxante, en sales de ba&ntilde;o y como un suplemento de magnesio para las plantas.</li></ul>',
+            'impacto' => '<p>El azufre puede encontrarse en el aire en varias formas diferentes. Puede provocar irritaciones en los ojos y garganta de los animales, cuando la toma tiene lugar a trav&eacute;s de la inhalaci&oacute;n del azufre en su fase gaseosa. El azufre se aplica extensivamente en las industrias y es emitido al aire, debido a las limitadas posibilidades de destrucci&oacute;n de los enlaces de azufre que se aplican.<br /> Los efectos da&ntilde;inos del azufre en los animales son principalmente da&ntilde;os cerebrales, a trav&eacute;s de un malfuncionamiento del hipot&aacute;lamo, y perjudicar el sistema nervioso.<br /> Pruebas de laboratorio con animales de prueba han indicado que el azufre puede causar graves da&ntilde;os vasculares en las venas del cerebro, coraz&oacute;n y ri&ntilde;ones. Estos tests tambi&eacute;n han indicado que ciertas formas del azufre pueden causar da&ntilde;os fetales y efectos cong&eacute;nitos. Las madres pueden incluso transmitirles envenenamiento por azufre a sus hijos a trav&eacute;s de la leche materna.<br /> Por &uacute;ltimo, el azufre puede da&ntilde;ar los sistemas enzim&aacute;ticos internos de los animales.</p>',
+            'imagen' => '016.JPG'
+        ]);
+        $this->updateDetalleElemento(16);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 17,
+            'aplicacion' => '<ul><li>El cloro se utiliza (por lo general un determinado compuesto de cloro) para matar las bacterias en las piscinas y en el agua potable. Tambi&eacute;n se utiliza en los desinfectantes y blanqueadores por la misma raz&oacute;n. El cloro es muy efectivo contra la bacteria E. coli.</li><li>Si bien no se utiliza tan a menudo hoy en d&iacute;a, algunas fuerzas armadas a&uacute;n usan el cloro como un gas venenoso. Es m&aacute;s utilizado de esta forma normalmente por grupos terroristas.</li><li>El cloro se utiliza para fabricar pl&aacute;sticos.</li></ul>',
+            'impacto' => '<p>El cloro se disuelve cuando se mezcla con el agua. Tambi&eacute;n puede escaparse del agua e incorporarse al aire bajo ciertas condiciones. La mayor&iacute;a de las emisiones de cloro al medio ambiente son al aire y a las aguas superficiales.</p><p>Una vez en el aire o en el agua, el cloro reacciona con otros compuestos qu&iacute;micos. Se combina con material inorg&aacute;nico en el ahua para formar sales de cloro, y con materia org&aacute;nica para formar compuestos org&aacute;nicos clorinados.</p><p>Debido a su reactividad no es probable que el cloro se mueva a trav&eacute;s del suelo y se incorpore a las aguas subterr&aacute;neas.</p><p>Las plantas y los animales no suelen almacenar cloro. Sin embargo, estudios de laboratorio muestran que la exposici&oacute;n repetida a cloro en el aire puede afectar al sistema inmunitario, la sangre, el coraz&oacute;n, y el sistema respiratorio de los animales.</p><p>El cloro provoca da&ntilde;os ambientales a bajos niveles. El cloro es especialmente da&ntilde;ino para organismos que viven en el agua y el suelo.</p>',
+            'imagen' => '017.JPG'
+        ]);
+        $this->updateDetalleElemento(17);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 18,
+            'aplicacion' => '<ul><li>El gas arg&oacute;n se utiliza en quemadores el&eacute;ctricos de grafito para evitar la combusti&oacute;n del grafito. El grafito se quema en si se calienta con aire normal por la presencia de ox&iacute;geno.</li><li>Los cristales de silicio y germanio se obtienen utilizando arg&oacute;n.</li><li>El arg&oacute;n se utiliza para matar a los cerdos (evitando su sufrimiento) si hay un brote de alguna enfermedad en una granja.</li></ul>',
+            'impacto' => '<p>Actualmente no se conocen los efectos del arg&oacute;n en plantas y animales. No se espera que perjudique a los organismos acu&aacute;ticos.</p><p>El arg&oacute;n no contiene ning&uacute;n material que deteriore la capa de ozono y no est&aacute; inclu&iacute;do en la lista de contaminantes marinos del DOT (Departamento de Transportes, E.E.U.U.).</p>',
+            'imagen' => '018.JPG'
+        ]);
+        $this->updateDetalleElemento(18);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 19,
+            'aplicacion' => '<ul><li>Casi todo el potasio en el mundo se utiliza en fertilizantes. Como los iones de potasio son una parte vital de la nutrici&oacute;n de las plantas, los cultivos y los &aacute;rboles deben ser cultivados en suelos con altas concentraciones de iones de potasio. El cloruro de potasio, sulfato de potasio y nitrato de potasio se utilizan en la agricultura, horticultura y cultivos hidrop&oacute;nicos.</li><li>El cloruro de potasio se utiliza para detener el coraz&oacute;n. Esto se utiliza para una cirug&iacute;a de coraz&oacute;n (cuando el coraz&oacute;n se detiene y se vuelve a reactivar) y en las inyecciones letales.</li><li>La sal de Rochelle, que contiene potasio, es el principal componente en polvo de hornear.</li></ul>',
+            'impacto' => '<p>Junto con el nitr&oacute;geno y el f&oacute;sforo, el potasio es uno de los macronutrients esenciales para la supervivencia de las plantas. Su presencia es de gran importancia para la salud del suelo, el crecimiento de las plantas y la nutrici&oacute;n animal. Su funci&oacute;n primaria en las plantas es su papel en el mantenimiento de la presi&oacute;n osm&oacute;tica y el tama&ntilde;o de la c&eacute;lula, influyendo de esta forma en la fotos&iacute;ntesis y en la producci&oacute;n de energ&iacute;a, as&iacute; como en la apertura de los estomas y el aporte de di&oacute;xido de carbono, la turgencia de la planta y la translocaci&oacute;n de los nutrientes. Como tal, el elemento es requerido en proporciones relativamente elevadas por las plantas en desarrollo.</p><p>Las consecuencias de niveles bajos de potasio se muestran por variedad de s&iacute;ntomas: restricci&oacute;n del crecimiento, reducci&oacute;n del florecimiento, cosechas enos abundantes y menor calidad de producci&oacute;n.</p><p>Elevados niveles de potasio soluble en el agua pueden causar da&ntilde;os a las semillas en germinaci&oacute;n, inhiben la toma de otros minerales y reducen la calidad del cultivo.</p><p>Composed with the online HTML editor. Please purchase a HTML Kit license to remove the promotional messages from the edited documents.</p>',
+            'imagen' => '019.JPG'
+        ]);
+        $this->updateDetalleElemento(19);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 20,
+            'aplicacion' => '<ul><li>El calcio se utiliza como un agente reductor con el fin de extraer metales como el uranio, zirconio y torio.</li><li>El queso se hace mediante el uso de iones de calcio que realizan la coagulaci&oacute;n de la leche.</li><li>El cemento y el mortero, mezclas importantes en la construcci&oacute;n de edificios y otras cosas, se hacen con calcio.</li></ul>',
+            'impacto' => '<p>El fosfato de calcio es muy t&oacute;xico para los organismos acu&aacute;ticos.</p>',
+            'imagen' => '020.JPG'
+        ]);
+        $this->updateDetalleElemento(20);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',
