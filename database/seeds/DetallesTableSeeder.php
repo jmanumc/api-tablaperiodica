@@ -341,6 +341,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(40);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 41,
+            'aplicacion' => '<p>Su uso principal es para alearlo con el acero inoxidable, al que proporciona mayor resistencia a la corrosi&oacute;n, particularmente a altas temperaturas.</p><p>Aleado con esta&ntilde;o, titanio o circonio, se utiliza en la fabricaci&oacute;n de superconductores y es un componente importante en muchas superaleaciones.</p><p>El niobio puro tiene caracter&iacute;sticas &oacute;ptimas como material de construcci&oacute;n para las plantas de energ&iacute;a nuclear.</p>',
+            'impacto' => '<p>No se han documentado efectos ambientales negativos.</p>',
+            'imagen' => '041.JPG'
+        ]);
+        $this->updateDetalleElemento(41);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 42,
+            'aplicacion' => '<p>El metal se usa principalmente en aleaciones para aceros. Estas aleaciones resultan muy duras y resistentes a las altas presiones y temperaturas. Se utilizan para trabajos estructurales, en aeron&aacute;utica y en la industria automovil&iacute;stica.</p><p>El molibdenno se emplea como electrodo en hornos de vidrio, moldes y &uacute;tiles de trabajo con fundidos de colada a presi&oacute;n, contactores el&eacute;ctricos, herramientas de todo tipo, h&eacute;lices, l&aacute;mparas el&eacute;ctricas y tubos electr&oacute;nicos.</p><p>Tambi&eacute;n se emplea como pigmento en la preparaci&oacute;n de pinturas y como lubricante para altas temperaturas.</p>',
+            'impacto' => '<p>No se han documentado efectos negativos del molibdeno sobre el medio ambiente.</p>',
+            'imagen' => '042.JPG'
+        ]);
+        $this->updateDetalleElemento(42);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 43,
+            'aplicacion' => '<p>El Tc, con 6 horas de per&iacute;odo, se usa en las t&eacute;cnicas escintigr&aacute;ficas en medicina nuclear como trazador por su corto per&iacute;odo y su facilidad para fijarse en los tejidos. Adem&aacute;s de los usos m&eacute;dicos, los pertecnatos se utilizan como inhibidores de la corrosi&oacute;n en las aleaciones.</p>',
+            'impacto' => '<p>No se han documentado efectos ambientales negativos del tecnecio.</p>',
+            'imagen' => '043.JPG'
+        ]);
+        $this->updateDetalleElemento(43);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 44,
+            'aplicacion' => '<p>El metal puro es m&aacute;s resistente que el platino al ataque de los &aacute;cidos, incluso al agua regia.</p><p>Se usa en aleaciones con el platino y el paladio para darles mayor dureza. Estas aleaciones se emplean en la fabricaci&oacute;n de contactos el&eacute;ctricos de resistencia elevada, en odontolog&iacute;a, plumillas para escribir, joyas, ejes y pivotes antimagn&eacute;ticos para relojes e instrumentos de precisi&oacute;n y restauraciones met&aacute;lizas sobre porcelana.</p><p>La aleaci&oacute;n rutenio-molibdeno es superconductora a temperaturas del orden de -263&ordm;C.</p>',
+            'impacto' => '<p>No se han documentado efectos negativos del rutenio sobre el medio ambiente.</p>',
+            'imagen' => '044.JPG'
+        ]);
+        $this->updateDetalleElemento(44);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 45,
+            'aplicacion' => '<p>Se usa principalmente en aleaciones con paladio o platino para termopares para la medida de altas temperaturas, resistencias de hornos el&eacute;ctricos y como aditivo para la fibra de vidrio.</p><p>Tambi&eacute;n se usa como recubrimiento electrol&iacute;tico de otros metales y en los procesos de acabado en joyer&iacute;a y utensilios de plata.</p><p>Tiene usos como catalizador por ejemplo en la producci&oacute;n de &aacute;cido n&iacute;trico.</p><p>El metal finamente dividido con alg&uacute;n contenido de &oacute;xido y de hidruro se conoce como negro de rodio y se utiliza como catalizador y como pigmento negro para la cer&aacute;mica.</p>',
+            'impacto' => '<p>No vender el material al medio ambiente sin los adecuados permisos gubernamentales.</p>',
+            'imagen' => '045.JPG'
+        ]);
+        $this->updateDetalleElemento(45);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 46,
+            'aplicacion' => '<p>El uso m&aacute;s importante del metal es en el campo de las comunicaciones donde se usa, aleado con Ag y Cu, en la fabricaci&oacute;n de rel&eacute;s y para contactos el&eacute;ctricos especiales sometidos a la acci&oacute;n de la corrosi&oacute;n o a esfuerzos mec&aacute;nicos importantes.</p><p>Se usa como catalizador en algunos procesos como la hidrogenaci&oacute;n de alcanos. Aleaciones de paladio se usan en odontolog&iacute;a para pr&oacute;tesis dentales, para resistencias el&eacute;ctricas de precisi&oacute;n, para resortes no magn&eacute;ticos en relojer&iacute;a, para cubrir espejos especiales, para la soldadura del acero inoxidable y como protecci&oacute;n contra la corrosi&oacute;n.</p><p>Tambi&eacute;n se usa como oro blanco en joyer&iacute;a (aleado con oro).</p>',
+            'impacto' => '<p>No vender el material al medio ambiente sin los adecuados permisos gubernamentales.</p>',
+            'imagen' => '046.JPG'
+        ]);
+        $this->updateDetalleElemento(46);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 47,
+            'aplicacion' => '<p>Todos conocemos el uso de la plata en joyer&iacute;a y decoraci&oacute;n y como moneda. Su resistencia a los agentes corrosivos la hace id&oacute;nea para la fabricaci&oacute;n de algunos recipientes especiales o como recubrimiento de otros metales.</p><p>La plata se usa tambi&eacute;n para fabricar componentes electr&oacute;nicos y el&eacute;ctricos y para cable de semiconductores de alta velocidad por su buena conductividad.</p><p>Se alea com&uacute;nmente con cantidades peque&ntilde;as de otros metales para hacerlos m&aacute;s duros y m&aacute;s duraderos, as&iacute; sus aleaciones con plomo o talio se usan como recubrimiento en algunas piezas para la industria aeron&aacute;utica.</p><p>En algunos usos tradicionales como incrustaciones decorativas o recubrimiento del vidrio para la fabricaci&oacute;n de espejos ha sido sustituida por el aluminio.</p><p>La plata coloidal, soluciones diluidas de nitrato de plata (AgNO<sub>3 </sub>), se usa en medicina como antis&eacute;ptico y bactericida.</p><p>Los haluros de plata son sensibles a la luz y se usan en emulsiones para placas y pel&iacute;culas fotogr&aacute;ficas.</p><p>Una aplicaci&oacute;n menos conocida y frecuente de los haluros de plata, principalmente del yoduro, es su dispersi&oacute;n en las nubes para producir lluvia artificialmente.</p><p>En algunos procesos tambi&eacute;n se utiliza la plata como catalizador.</p>',
+            'impacto' => '<p>Niveles ambientales, efectos en los organismos en el laboratorio y en el campo Medio acu&aacute;tico: toxicidad de los componentes de la plata para especies cu&aacute;ticas, ambiente terrestre evaluaci&oacute;n de los efectos.</p>',
+            'imagen' => '047.JPG'
+        ]);
+        $this->updateDetalleElemento(47);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 48,
+            'aplicacion' => '<p>El cadmio se deposita electrol&iacute;ticamente sobre metales, principalmente hierro o el acero, sobre los que forma un revestimiento qu&iacute;micamente resistente.</p><p>Se alea con el cobre para los cables del tendido el&eacute;ctrico.</p><p>El cadmio rebaja el punto de fusi&oacute;n de los metales con los que se alea; se usa con Pb, Sn y Bi en la fabricaci&oacute;n de fusibles para sistemas autom&aacute;ticos, alarmas contra incendios y fusibles el&eacute;ctricos.</p><p>Un aleaci&oacute;n de cadmio con Pb y Zn se usa como soldadura para el hierro.</p><p>Se usa tambi&eacute;n para las barras de control en plantas el&eacute;ctricas nucleares por su capacidad de absorci&oacute;n de neutrones lentos y como blindaje contra neutrones en aparatos de medida.</p><p>Las sales de cadmio se usan en fotograf&iacute;a y en la fabricaci&oacute;n de fuegos de artificio, pinturas fluorescentes, vidrios y porcelana.</p><p>El sulfuro de cadmio es empleado en un tipo de c&eacute;lula fotovoltaica, y las pilas recargables de n&iacute;quel - cadmio son cada vez m&aacute;s usadas.</p><p>El sulfato de cadmio se usa en medicina como astringente. El sulfuro (CdS) y seleniuro (CdSe) se utilizan como pigmento.</p>',
+            'impacto' => '<p>De forma natural grandes cantidades de Cadmio son liberadas al ambiente, sobre 25.000 toneladas al a&ntilde;o. La mitad de este Cadmio es liberado en los r&iacute;os a trav&eacute;s de la descomposici&oacute;n de rocas y alg&uacute;n Cadmio es liberado al aire a trav&eacute;s de fuegos forestales y volcanes. El resto del Cadmio es liberado por las actividades humanas, como es la manufacturaci&oacute;n.</p><p>Las aguas residuales con Cadmio procedentes de las industrias mayoritariamente termian en suelos. Las causas de estas corrientes de residuos son por ejemplo la producci&oacute;n de Zinc, minerales de fosfato y las bioindustrias del esti&eacute;rcol. El Cadmio de las corrientes residuales pueden tambi&eacute;n entrar en el aire a trav&eacute;s de la quema de residuos urbanos y de la quema de combustibles f&oacute;siles. Debido a las regulaciones s&oacute;lo una peque&ntilde;a cantidad de Cadmio entra ahora en el agua a trav&eacute;s del vertido de aguas residuales de casas o industrias.</p><p>Otra fuente importante de emisi&oacute;n de Cadmio es la producci&oacute;n de fertilizantes fosfatados artificiales. Parte del Cadmio terminar&aacute; en el suelo despu&eacute;s de que el fertilizante es aplicado en las granjas y el resto del Cadmio terminar&aacute; en las aguas superficiales cuando los residuos del fertilizante es vertido por las compa&ntilde;&iacute;as productoras.</p>',
+            'imagen' => '048.JPG'
+        ]);
+        $this->updateDetalleElemento(48);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 49,
+            'aplicacion' => '<p>Se utiliza como recubrimiento electrol&iacute;tico contra el desgaste en piezas de aleaciones antifricci&oacute;n.</p><p>Se usa tambi&eacute;n en aleaciones para pr&oacute;tesis dentales y motores el&eacute;ctricos, en varillas de control de reactores nucleares.</p><p>Algunas aleaciones de indio tienen un bajo punto de fusi&oacute;n. Por ejemplo, una aleaci&oacute;n con un 24% de indio y un 76% de galio es l&iacute;quida a la temperatura ambiente.</p><p>Ciertos compuestos de indio (InAs e InSb) tienen propiedades &uacute;nicas como semiconductores, por lo que se utilizan en la fabricaci&oacute;n de muchos componentes electr&oacute;nicos.</p><div>Los espejos hechos con indio son &oacute;pticamente tan buenos como los de plata, pero superan a &eacute;stos en la resistencia a la corrosi&oacute;n atmosf&eacute;rica.</div>',
+            'impacto' => '<p>Los efectos ambientales de esta sustancia a&uacute;n no han sido investigados.</p>',
+            'imagen' => '049.JPG'
+        ]);
+        $this->updateDetalleElemento(49);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 50,
+            'aplicacion' => '<p>El esta&ntilde;o tiene usos ampliamente difundidos e interviene en centenares de procesos industriales.</p><p>En forma de pel&iacute;cula, se usa como revestimiento protector del cobre, del hierro y de los diversos metales usados en la fabricaci&oacute;n de latas de conserva, aunque dada la facilidad con que se ataca por algunos &aacute;cidos resulta no apto para la elaboraci&oacute;n de muchas frutas y otros alimentos.</p><p>Se utiliza para disminuir la fragilidad del vidrio, en el esta&ntilde;ado de hilos conductores y, aleado con niobio, en la preparaci&oacute;n de semiconductores.</p><p>Los compuestos de esta&ntilde;o se usan para fungicidas, tintes, dent&iacute;fricos (SnF<sub>2 </sub>) y pigmentos.</p><p>Se utiliza en la preparaci&oacute;n de importantes aleaciones como bronce (el esta&ntilde;o y cobre) y metal de tipograf&iacute;a (esta&ntilde;o, plomo y antimonio).</p><p>Se usa tambi&eacute;n, en aleaci&oacute;n con el titanio, en la industria aeroespacial y como ingrediente en algunos insecticidas.</p><p>El sulfuro est&aacute;nnico, conocido tambi&eacute;n como mosaico de oro, se usa en forma de polvo para dar aspecto met&aacute;lico a objetos de madera o de resina.</p>',
+            'impacto' => '<p>El esta&ntilde;o como simple &aacute;tomo o en mol&eacute;cula no es muy t&oacute;xico para ning&uacute;n tipo de organismo. La forma t&oacute;xica es la forma org&aacute;nica. Los compuestos org&aacute;nicos del esta&ntilde;o pueden mantenerse en el medio ambiente durante largos periodos de tiempo. Son muy persistentes y no f&aacute;cilmente biodegradables. Los microorganismos tienen muchas dificultades en romper compuestos org&aacute;nicos del esta&ntilde;o que se han acumulado en aguas del suelo a lo largo de los a&ntilde;os. Las concentraciones de esta&ntilde;o org&aacute;nico todav&iacute;a aumentan debido a esto.</p><p>Los esta&ntilde;os org&aacute;nicos pueden dispersarse a trav&eacute;s de los sistemas acu&aacute;ticos cuando son absorbidos por part&iacute;culas residuales. Se sabe que causan mucho da&ntilde;o en los ecosistemas acu&aacute;ticos, ya que son muy t&oacute;xicos para los hongos, las algas y el fitoplancton. El fitoplancton es un eslab&oacute;n muy importante en el ecosistema acu&aacute;tico, ya que proporciona ox&iacute;geno al resto de los organismos acu&aacute;ticos. Tambi&eacute;n es una parte importante de la cadena alimenticia acu&aacute;tica.</p><p>Hay muchos tipos diferentes de esta&ntilde;o org&aacute;nico que pueden variar mucho en su toxicidad. Los esta&ntilde;os tribut&iacute;licos son los compuestos del esta&ntilde;o m&aacute;s t&oacute;xicos para los peces y los hongos, mientras que el esta&ntilde;o trifen&oacute;lico es mucho m&aacute;s t&oacute;xico para el fitoplancton.</p><p>Se sabe que los esta&ntilde;os org&aacute;nicos alteran el crecimiento, la reproducci&oacute;n, los sistemas enzim&aacute;ticos y los esquemas de alimentaci&oacute;n de los organismos acu&aacute;ticos. La exposici&oacute;n tiene lugar principalmente en la capa superior del agua, ya que es ah&iacute; donde los compuestos org&aacute;nicos del esta&ntilde;o se acumulan.</p>',
+            'imagen' => '050.JPG'
+        ]);
+        $this->updateDetalleElemento(50);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',

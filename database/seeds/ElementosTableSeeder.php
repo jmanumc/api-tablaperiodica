@@ -675,7 +675,7 @@ class ElementosTableSeeder extends Seeder
             'atomo' => 45,
             'oxidacion' => '2, 3, 4',
             'simbolo' => 'Rh',
-            'nombre' => 'RodioS',
+            'nombre' => 'Rodio',
             'masa' => '102.90550(2)',
             'electrones' => '2, 8, 18, 16, 1',
             'tipo_id' => 3,
