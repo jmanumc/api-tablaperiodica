@@ -261,6 +261,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(30);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 31,
+            'aplicacion' => '<ul><li>El uso principal del galio es en semiconductores donde se utiliza com&uacute;nmente en circuitos de microondas y en algunas aplicaciones de infrarrojos. Tambi&eacute;n se utiliza en para fabricar diodos LED de color azule y violeta y diodos l&aacute;ser.</li><li>El galio se usa en las armas nucleares para ayudar a estabilizar el plutonio.</li><li>Se puede utilizar en el interior de un telescopio para encontrar neutrinos.</li></ul>',
+            'impacto' => '<p>Una controversia con el galio involucra las armas nucleares y la poluci&oacute;n. El galio es usado para unir las minas entre s&iacute;. Sin embargo, cuando las minas se cortan y se forma polvo de &oacute;xido de plutonio, el galio permanece en el plutonio. El plutonio se ve inutilizado para su uso como combustible porque el galio es corrosivo para varios otros elementos. Si el galio es eliminado, sin embargo, el plutonio se vuelve &uacute;til de nuevo. El problema es que el proceso para eliminar el galio contribuye a una gran cantidad de poluci&oacute;n en el agua con sustancias radiactivas. El galio es un elemento ideal para ser usado en minas, pero la poluci&oacute;n es destructiva para La Tierra y para la salud de sus habitantes. Incluso haci&eacute;ndose esfuerzos para eliminar la poluci&oacute;n del agua, esto incrementar&iacute;a significativamente los costes de procedimiento de la conversi&oacute;n de plutonio en un combustible (en alrededor de 200 millones de d&oacute;lares). Los cient&iacute;ficos est&aacute;n trabajando en otro m&eacute;todo para limpiar el plutonio, pero pueden pasar a&ntilde;os hasta que sea completado.</p>',
+            'imagen' => '031.JPG'
+        ]);
+        $this->updateDetalleElemento(31);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 32,
+            'aplicacion' => '<ul><li>El germanio se utiliza como material semiconductor. Se usa generalmente, junto al silicio, en los circuitos integrados de alta velocidad para mejorar su rendimiento. En algunos casos se est&aacute; planteando sustituir al silicio por germanio para hacer chips miniaturizados.</li><li>Tambi&eacute;n se utiliza en las l&aacute;mparas fluorescentes y algunos didodos LED.</li><li>Algunos pedales de guitarra contienen transistores de germanio para producir un tono de distorsi&oacute;n caracter&iacute;stico.</li></ul>',
+            'impacto' => '<p>Como metal pesado se considera que tiene alg&uacute;n efecto negativo en los ecosistemas acu&aacute;ticos.</p>',
+            'imagen' => '032.JPG'
+        ]);
+        $this->updateDetalleElemento(32);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 33,
+            'aplicacion' => '<ul><li>El uso principal de ars&eacute;nico met&aacute;lico es el fortalecimiento de las aleaciones de cobre y plomo para su uso en bater&iacute;as de coche.</li><li>Tambi&eacute;n se utiliza como un dopante de tipo n en dispositivos semiconductores electr&oacute;nicos (como los diodos).</li><li>El ars&eacute;nico tambi&eacute;n se utiliza en numerosos pesticidas, herbicidas e insecticidas, aunque esta pr&aacute;ctica se est&aacute; volviendo menos com&uacute;n ya que cada vez m&aacute;s productos de este tipo est&aacute;n prohibidos.</li></ul>',
+            'impacto' => '<p>El Ars&eacute;nico puede ser encontrado de forma natural en la tierra en peque&ntilde;as concentraciones. Esto ocurre en el suelo y minerales y puede entrar en el aire, agua y tierra a trav&eacute;s de las tormentas de polvo y las aguas de escorrent&iacute;a.</p><p>El Ars&eacute;nico es un componente que es extremadamente duro de convertir en productos solubre en agua o vol&aacute;til. En realidad el Ars&eacute;nico es naturalmente espec&iacute;ficamente un compuesto m&oacute;vil, b&aacute;sicamente significa que grandes concentraciones no aparecen probablemente en un sitio espec&iacute;fico.</p><p>El ciclo del Ars&eacute;nico ha sido ampliado como consecuencia de la interferencia humana y debido a esto, grandes cantidades de Ars&eacute;nico terminan en el Ambiente y en organismos vivos. El Ars&eacute;nico es moyoritariamente emitido por las industrias productoras de cobre, pero tambi&eacute;n durante la producci&oacute;n de plomo y zinc y en la agricultura.</p><p>Este no puede ser destruido una vez que este ha entrado en el Ambiente, as&iacute; que las cantidades que hemos a&ntilde;adido pueden esparcirse y causar efectos sobre la salud de los humanos y los animales en muchas localizaciones sobre la tierra.</p><p>Las plantas absorben Ars&eacute;nico bastante f&aacute;cil, as&iacute; que alto ranto de concentraciones pueden estar presentes en la comida. Las concentraciones del peligroso Ars&eacute;nico inorg&aacute;nico que est&aacute; actualmente presente en las aguas superficiales aumentan las posibilidades de alterar el material gen&eacute;tico de los peces.</p>',
+            'imagen' => '033.JPG'
+        ]);
+        $this->updateDetalleElemento(33);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 34,
+            'aplicacion' => '<ul><li>El uso m&aacute;s com&uacute;n de selenio es en la producci&oacute;n de vidrio. Debido al hecho de que el selenio provoca un color rojo en el vidrio, tambi&eacute;n se puede usar para tintar el vidrio de color rojo. Tambi&eacute;n se puede utilizar para anular los tintes de color verde o amarillo causados ​​por otras impurezas durante el proceso de fabricaci&oacute;n de vidrio.</li><li>En la fabricaci&oacute;n de goma se utilizan peque&ntilde;as cantidades de compuestos de selenio.</li><li>El selenio se puede mezclar con otro elemento qu&iacute;mico llamado bismuto para crear un lat&oacute;n sin plomo.</li></ul>',
+            'impacto' => '<p>El selenio se presenta naturalmente en el medio ambiente. Es liberado tanto a trav&eacute;s de procesos naturales como de actividades humanas. En su forma natural el selenio como elemento no puede ser creado ni destruido, pero tiene la capacidad de cambiar de forma.</p><p>Bajos niveles de selenio pueden terminar en suelos o agua a trav&eacute;s de la erosi&oacute;n de las rocas. Ser&aacute; entonces tomado por las plantas o acabar&aacute; en el aire cuando es absorbido en finas part&iacute;culas de polvo. Es m&aacute;s probable que el selenio entre en el aire a trav&eacute;s de la combusti&oacute;n de carb&oacute;n y aceite, en forma de di&oacute;xido de selenio. Esta sustancia ser&aacute; transformada en &aacute;cido de selenio en el agua o el sudor.</p>',
+            'imagen' => '034.JPG'
+        ]);
+        $this->updateDetalleElemento(34);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 35,
+            'aplicacion' => '<ul><li>El mayor uso de bromo es la creaci&oacute;n de retardantes de llama. Cuando cuando esta sustancia se quema el bromo aisla el fuego del ox&iacute;geno causando que este se apague.</li><li>Los compuestos de bromuro, en particular el bromuro de potasio, se utilizan en los c&iacute;rculos m&eacute;dicos como anticonvulsivos. Tambi&eacute;n se utilizan los veterinarios. La mayor&iacute;a de los pa&iacute;ses limitan seriamente el uso y la disponibilidad de las sales de bromo para uso humano debido al hecho de que causan disfunciones neurol&oacute;gicas.</li><li>Las sustancias bromadas son ingredientes importantes de muchos medicamentos de venta libre y medicamentos con receta, como analg&eacute;sicos, sedantes y los antihistam&iacute;nicos. De hecho, los compuestos de bromo son los ingredientes activos en varios medicamentos que tratan la neumon&iacute;a y la adicci&oacute;n a la coca&iacute;na. Actualmente, los medicamentos que contienen varios compuestos de bromo est&aacute;n en ensayos para el tratamiento de la enfermedad de Alzheimer y las nuevas generaciones de la lucha contra el c&aacute;ncer y medicamentos contra el SIDA.</li></ul>',
+            'impacto' => '<p>Los bromuros org&aacute;nicos son a menudo aplicados como agentes desinfectantes y protectores, debido a sus efectos perjudiciales para los microorganismos. Cuando se aplican en invernaderos y en campos de cultivo pueden ser arrastrados f&aacute;cilmente hasta las aguas superficiales, lo que tiene efectos muy negativos para la salud de las daphnia, peces, langostas y algas.</p><p>Los bromuros org&aacute;nicos son tambi&eacute;n perjudiciales para los mam&iacute;feros, especialmente cuando se acumulan en los cuerpos de sus presas. Los efectos m&aacute;s importantes sobre los animales son da&ntilde;os nerviosos y da&ntilde;os en el ADN, lo que puede aumentar las probabilidades de desarrollar c&aacute;ncer.</p><p>La toma de bromuro org&aacute;nico tiene lugar a trav&eacute;s de la comida, de la respiraci&oacute;n y a trav&eacute;s de la piel.</p>',
+            'imagen' => '035.JPG'
+        ]);
+        $this->updateDetalleElemento(35);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 36,
+            'aplicacion' => '<ul><li>Las bombillas de kript&oacute;n se utilizan en fotograf&iacute;a para algunas aplicaciones, ya que producen luz blanca bajo ciertas condiciones. Generalmente se usa en flashes fotogr&aacute;ficos de alta velocidad.</li><li>Este color blanco se utiliza en los tubos de gas de colores para crear un efecto similar al de un letrero de ne&oacute;n.</li><li>El kript&oacute;n se utiliza en la producci&oacute;n y el uso del l&aacute;ser de fluoruro de kript&oacute;n, que est&aacute; siendo utilizado en la investigaci&oacute;n de la fusi&oacute;n nuclear. Su uso tambi&eacute;n es frecuente en espect&aacute;culos de l&aacute;ser de alta potencia.</li></ul>',
+            'impacto' => '<p>El kript&oacute;n es un gas raro atmosf&eacute;rico y como tal no es t&oacute;xico y es qu&iacute;micamente inerte. Las temperaturas extremadamente fr&iacute;as (-244<sup>o</sup>C) congelar&aacute;n a los organismos al contacto, pero no se anticipan efectos ecol&oacute;gicos a largo plazo.</p><p><em>Consideraciones para su vertido:&nbsp;</em>Cuando su vertido sea necesario, descargar el gas lentamente en un lugar exterior y bien ventilado lejano a &aacute;reas de trabajo y tomas de aire de edificios.No verter ning&uacute;n gas residual en cilindros de aire comprimido. Devolver los cilindros al proveedor con alguna presi&oacute;n residual, y la v&aacute;lvula del cilindro fuertemente cerrada.Tener en cuenta que los requerimientos estatales y locales para los vertidos pueden ser m&aacute;s restrictivos o diferentes a las normas federales. Consultar las normas estatales y locales referentes al vertido adecuado de este material.</p>',
+            'imagen' => '036.JPG'
+        ]);
+        $this->updateDetalleElemento(36);
+        
+        DB::table('detalles')->insert([
+            'elemento_id' => 37,
+            'aplicacion' => '<ul><li>El rubidio se usa para hacer relojes at&oacute;micos a partir de rubidio de bajo costo. Estos relojes at&oacute;micos se utilizan para una variedad de prop&oacute;sitos tales como en los sistemas mundiales de navegaci&oacute;n (GPS y GLONASS) y dentro de la industria de las telecomunicaciones (estaciones base de telefon&iacute;a m&oacute;vil y estaciones de televisi&oacute;n).</li><li>Se utiliza en el enfriamiento por l&aacute;ser, que se utiliza para enfriar las muestras moleculares y at&oacute;micas.</li><li>Las sales de rubidio se utilizan para hacer ciertos tipos de productos de vidrio y cer&aacute;mica.</li></ul>',
+            'impacto' => '<p>No se han documentado efectos ambientales negativos del rubidio.</p>',
+            'imagen' => '037.JPG'
+        ]);
+        $this->updateDetalleElemento(37);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 38,
+            'aplicacion' => '<ul><li>El cristal de la pantalla frontal de los dispositivos CRT contiene compuestos de estroncio para prevenir la emisi&oacute;n de rayos-X. Este es el uso m&aacute;s com&uacute;n de estroncio.</li><li>Con frecuencia al estroncio se le a&ntilde;ade peque&ntilde;as cantidades de aluminio y silicio creando aleaciones para mejorar su fuerza.</li><li>El AJ62 es una aleaci&oacute;n resistente usada en la industria del autom&oacute;vil que contiene un 2 por ciento de estroncio.</li></ul>',
+            'impacto' => '<p>El Estroncio en su estado elemental ocurre de forma natural en muchos compartimentos del medio ambiente, incluyendo rocas, suelo, agua y aire. Los compuestos del estroncio pueden moverse a trav&eacute;s del medio ambiente con bastante facilidad, porque mucho de los compuestos son soluble en agua.</p><p>El Estroncio est&aacute; siempre presente en el aire como polvo, en un cierto nivel. Las concentraciones de Estroncio en el aire son incrementadas por las actividades humanas, como e la combusti&oacute;n de carb&oacute;n y aceite. Part&iacute;culas de polvo que contienen Estroncio precipitar&aacute;n en las aguas superficiales, en el suelo o en las superficies de las plantas en alg&uacute;n lugar. Cuando las part&iacute;culas no precipitan estas volver&aacute;n a caer a la tierra coando llueve o cuando nieve. Todo el Estroncio eventualmente terminar&aacute; en los suelos o en los fondos de las masas de aguas, donde se mezcla con el Estroncio que est&aacute; ya presente. El Estroncio puede terminar en el agua a trav&eacute;s de suelos y a trav&eacute;s de la erosi&oacute;n de rocas. S&oacute;lo una peque&ntilde;a parte del Estroncio en agua procede de part&iacute;culas de polvo del aire. La mayor parte del Estroncio en agua est&aacute; disuelto, pero algo de &eacute;l est&aacute; suspendido, causando turbidez de agua en algunos puntos. No mucho Estroncio termina en el agua potable.</p>',
+            'imagen' => '038.JPG'
+        ]);
+        $this->updateDetalleElemento(38);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 39,
+            'aplicacion' => '<ul><li>El &oacute;xido de itrio es un componente del f&oacute;sforo usado ​​para producir el color rojo en los tubos de rayos cat&oacute;dicos de las antiguas televisiones.</li><li>El &oacute;xido de itrio se utiliza en la cer&aacute;mica y el vidrio. El &oacute;xido de itrio tiene un alto punto de fusi&oacute;n e a&ntilde;ade resistencia al vidrio.</li><li>Los granates de itrio y hierro se utilizan para filtrar las ondas de los microondas y la transmisi&oacute;n y transducci&oacute;n de energ&iacute;a ac&uacute;stica.</li></ul>',
+            'impacto' => '<p>El itrio es introducido en el ambiente en muchos lugares diferentes, mayoritariamente por industrias que procesan el petr&oacute;leo. Este puede tambi&eacute;n entrar en el ambiente cuando los equipos de las casas son tirados a las basuras. El itrio podr&aacute; gradualmente acumularse en suelos y agua y eventualmente podr&aacute; acumularse en humanos, animales y particulas del suelo. En animales acu&aacute;ticos el &Iacute;trio causa da&ntilde;o en las c&eacute;lulas de membranas, lo cual tiene bastantes influencias negativas en la reproducci&oacute;n y las funciones del sistema nervioso.</p>',
+            'imagen' => '039.JPG'
+        ]);
+        $this->updateDetalleElemento(39);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 40,
+            'aplicacion' => '<ul><li>Este metal se utiliza en la industria nuclear para el revestimiento de elementos combustibles ya que tiene una secci&oacute;n transversal de baja absorci&oacute;n de neutrones. El zirconio es muy resistente a la corrosi&oacute;n por &aacute;cidos y &aacute;lcalis del agua, por lo tanto, es ampliamente utilizado en la industria qu&iacute;mica, donde se emplean agentes corrosivos.</li><li>El metal se utiliza en aleaciones con acero para aplicaciones quir&uacute;rgicas. Este metal es superconductor a bajas temperaturas y las aleaciones de circonio y niobio se utilizan para fabricar imanes superconductores. Las aleaciones de zirconio con zinc se vuelven magn&eacute;ticas a temperaturas inferiores a -238 grados cent&iacute;grados. El zirconio se utiliza tambi&eacute;n en tubos de vac&iacute;o, l&aacute;mparas de flash para fotograf&iacute;a, en cebadores explosivos y en filamentos de las l&aacute;mparas.</li><li>El &oacute;xido de zirconio (zirc&oacute;n) tiene un &iacute;ndice de refracci&oacute;n alto. El &oacute;xido tambi&eacute;n se usa para crear crisoles de laboratorio resistentes a choques t&eacute;rmicos, para el revestimiento de los hornos metal&uacute;rgicos y por las industrias del vidrio y la cer&aacute;mica como un material refractario.</li></ul>',
+            'impacto' => '<p>Es improbable que el zirconio presente un peligro para el medio ambiente.</p>',
+            'imagen' => '040.JPG'
+        ]);
+        $this->updateDetalleElemento(40);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',

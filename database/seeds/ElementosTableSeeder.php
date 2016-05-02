@@ -540,7 +540,7 @@ class ElementosTableSeeder extends Seeder
             'atomo' => 36,
             'oxidacion' => '2, 4, 6',
             'simbolo' => 'Kr',
-            'nombre' => 'Criptón',
+            'nombre' => 'Kriptón',
             'masa' => '83.796',
             'electrones' => '2, 8, 18, 8',
             'tipo_id' => 1,
