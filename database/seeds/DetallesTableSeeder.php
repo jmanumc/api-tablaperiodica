@@ -421,6 +421,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(50);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 51,
+            'aplicacion' => '<p>Se usa en semiconductores y en aleaciones como el metal de imprenta.</p><p>Sus compuestos se utilizan para fluoraci&oacute;n (SbF<sub>3 </sub>), cloraci&oacute;n (SbCl<sub>5 </sub>) y como retardantes de la llama en pl&aacute;sticos (Sb<sub>2</sub>O<sub>3</sub>), un doble tartrato de antimonio y potasio se emplea en medicina, el sulfuro de antimonio rojo, se usa en equipos de seguridad y en el vulcanizado del caucho.</p><p>Una mezcla de &oacute;xido y sulfuro de antimonio se utiliza como pigmento amarillo para el vidrio y la cer&aacute;mica.</p><p>El tricloruro de antimonio se emplea como c&aacute;ustico en medicina y como mordiente en tintorer&iacute;a.</p><p>El is&oacute;topo radiactivo Sb-124 se usa como trazador en los oleoductos.</p>',
+            'impacto' => '<p>El antimonio se puede encontrar en los suelos, agua y aire en cantidades muy peque&ntilde;as. El antimonio contamina principalmente los suelos. Puede viajar grandes distancias con las aguas subterr&aacute;neas hacia otros lugares y aguas superficiales.</p><p>Las pruebas de laboratorio con ratas, conejos y conejillos de indias nos han mostrado que niveles relativamente altos de antimonio pueden matar a peque&ntilde;os animales. Las ratas pueden experimentar da&ntilde;os pulmonares, cardiacos, hep&aacute;ticos y renales previos a la muerte.</p><p>Los animales que respiran bajos niveles de antimonio durante un largo periodo de tiempo pueden experimentar irritaci&oacute;n ocular, p&eacute;rdida de pelo y da&ntilde;os pulmonares. Los perros pueden experimentar problemas cardiacos incluso cuando son expuestos a bajos niveles de antimonio. Los animales que respiran bajos niveles de antimonio durante un par de meses tambi&eacute;n pueden experimentar problemas de fertilidad.</p>',
+            'imagen' => '051.JPG'
+        ]);
+        $this->updateDetalleElemento(51);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 52,
+            'aplicacion' => '<p>Se usa en algunas aleaciones de cobre y plomo para aumentar la resistencia a la tensi&oacute;n, en la fabricaci&oacute;n de rectificadores y dispositivos termoel&eacute;ctricos y en la investigaci&oacute;n de semiconductores.</p><p>Junto con otras sustancias org&aacute;nicas, es empleado como agente vulcanizador en el procesamiento del caucho sint&eacute;tico y natural.</p><p>Se usa tambi&eacute;n para dar color azul al vidrio.</p><p>El teluro coloidal se usa como insecticida, germicida y fungicida.</p>',
+            'impacto' => '<p>No es peligroso o es f&aacute;cilmente transformado en inocuo por procesos naturales.</p><p>Cuando es calentado para descomponerlo, el cloruro de teluro puede emitir vapores t&oacute;xicos de teluro y cloro.</p>',
+            'imagen' => '052.JPG'
+        ]);
+        $this->updateDetalleElemento(52);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 53,
+            'aplicacion' => '<p>Tiene usos muy importantes en medicina. Soluciones de yodo y alcohol y complejos de yodo se utilizan como antis&eacute;pticos y desinfectantes.</p><p>Is&oacute;topos radiactivos del yodo se usan en medicina nuclear como trazadores y en otros campos de investigaci&oacute;n.</p><p>Tambi&eacute;n tiene otros usos no m&eacute;dicos como preparaci&oacute;n de emulsiones fotogr&aacute;ficas, elaboraci&oacute;n de colorantes y l&aacute;mparas hal&oacute;genas.</p><p>El yoduro de plata dispersado en las nubes se utiliza para producir lluvia con fines agr&iacute;colas.</p>',
+            'impacto' => '<p>El yodo puede encontrarse en el aire, el agua y el suelo de forma natural. Las fuentes m&aacute;s importantes de yodo natural son los oc&eacute;anos. El yodo en el aire se puede combinar con part&iacute;culas de agua y precipitar en el agua o los suelos. El yodo en los suelos se combina con materia org&aacute;nica y permanece en el mismo sitio por mucho tiempo. Las plantas que crecen en estos suelos pueden absorber yodo. EL ganado y otros animales absorber&aacute;n yodo cuando coman esas plantas.</p><p>El yodo en las aguas superficiales se evaporar&aacute; y volver&aacute; a entrar en el aire. Los humanos tambi&eacute;n a&ntilde;adimos yodo al aire, al quemar carb&oacute;n o fuel para producir energ&iacute;a. Pero la cantidad de yodo que entra en el aire debido a la actividad humana es bastante peque&ntilde;a comparada a la cantidad que se evapora de los oc&eacute;anos.</p><p>El yodo puede ser radioactivo. Los is&oacute;topos radioactivos se forman de manera natural durante reacciones qu&iacute;micas en la atm&oacute;sfera.</p>',
+            'imagen' => '053.JPG'
+        ]);
+        $this->updateDetalleElemento(53);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 54,
+            'aplicacion' => '<p>El xen&oacute;n se usa principalmente en tubos de descarga, luces de destello (estroboscopios) y en algunos procesos nucleares.</p>',
+            'impacto' => '<p>El xen&oacute;n es un gas atmosf&eacute;rico raro y como tal no es t&oacute;xico y es qu&iacute;micamente inerte. Su temperatura extremadamente fr&iacute;a (-244<sup>o</sup>C) congelar&aacute; a los organismos al contacto, pero no se anticipan efectos ecol&oacute;gicos a largo plazo.</p><p><em>Consideraciones para su eliminaci&oacute;n:</em>&nbsp;Cuando su eliminaci&oacute;n se hace necesaria, verter el gas lentamente en una zona exterior bien ventilada y alejada de zonas de trabajo y de tomas de aire de edificios. No verter ning&uacute;n gas residual en cilindros de gas comprimido. Devolver los cilindros al proveedor con la presi&oacute;n residual y la v&aacute;lvula del cilindro fuertemente cerrada. Se ha de tener en cuenta que los requerimientos estatales y locales para le eliminaci&oacute;n de residuos pueden ser m&aacute;s restrictivos o diferentes a las regulaciones federales. Se deben consultar las regulaciones locales relacionadas con la adecuada eliminaci&oacute;n de este material.</p>',
+            'imagen' => '054.JPG'
+        ]);
+        $this->updateDetalleElemento(54);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 55,
+            'aplicacion' => '<p>Se usa como un agente reductor poderoso y en la fabricaci&oacute;n de c&eacute;lulas fotovoltaicas.</p><p>El Cs-137 se usa en la terapia de rayos gamma.</p><p>El Cs-133 se usa en el reloj at&oacute;mico.</p>',
+            'impacto' => '<p>El cesio ocurre de forma natural en la naturaleza mayormente por erosi&oacute;n y desgastado de rocas y minerales. Es tambi&eacute;n liberado al aire, al agua y al suelo a trav&eacute;s de la miner&iacute;a y f&aacute;bricas de minerales. Los is&oacute;topos radiactivos del Cesio pueden s&oacute;lo ser disminuidos en su concentraci&oacute;n a trav&eacute;s de la desintergraci&oacute;n radiactiva. El Cesio no radiactivo puede tambi&eacute;n ser destruido cuando entra en el ambiente o reacciona con otros compuestos en mol&eacute;culas muy espec&iacute;ficas.</p><p>Tanto el Cesio radiactivo como el estable actu&aacute;n de la misma manera qu&iacute;mica en los cuerpos de los humanos y los animales.</p><p>El Cesio en el aire puede viajar largas distancias antes de precipitar en la tierra. En el agua y en el suelo la mayor&iacute;a de los compuestos del Cesio son muy solubles en agua</p>',
+            'imagen' => '055.JPG'
+        ]);
+        $this->updateDetalleElemento(55);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 56,
+            'aplicacion' => '<p>Como metal tiene pocas aplicaciones pr&aacute;cticas, aunque que se use a veces para cubrir conductores el&eacute;ctricos en aparatos electr&oacute;nicos y en sistemas de ignici&oacute;n de autom&oacute;viles.</p><p>El sulfato de bario purificado se usa en la radiolog&iacute;a para diagnosticar problemas gastrointestinales. El paciente ingiere una papilla de sulfato de bario que es opaco a los rayos X y permite observar las zonas de bloqueo en el proceso digestivo.</p><p>El nitrato de bario se usa en pirotecnia para dar color verde. Tambi&eacute;n se utiliza en pinturas, vidrios, como componente de algunos raticidas y para extraer americio a partir de AmF<sub>3 </sub>.</p>',
+            'impacto' => '<p>El Bario es un metal plateado-blancuzco que puede ser encontrado en el medioambiente, donde existe de forma natural. Aparece combinado con otros elementos qu&iacute;micos, como el azufre, carb&oacute;n u ox&iacute;geno.</p><p>Los compuestos del Bario son usado por las industrias del aceite y gas para hacer lubricantes para taladros. Los compuestos del Bario son tambi&eacute;n usado para hacer pinturas, bricks, azulejos, vidrio y gomas.</p><p>Debido al uso extensivo del Bario en las industrias, el Bario ha sido liberado al ambiente en grandes cantidades. Como resultado las concentraciones de Bario en el aire, agua y suelo pueden ser mayores que las concentraciones que ocurren de forma natural en muchos lugares. El Bario es liberado al aire por las minas, proceso de refinado, y durante la producci&oacute;n de compuestos de Bario. Puede entrar tambi&eacute;n al aire durante la combusti&oacute;n del carb&oacute;n y aceites.</p>',
+            'imagen' => '056.JPG'
+        ]);
+        $this->updateDetalleElemento(56);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 57,
+            'aplicacion' => '<p>Se usa en aleaciones con el aluminio y el magnesio, as&iacute; como tambi&eacute;n con el acero.</p><p>El &oacute;xido de lantano se utiliza para fabricar ciertos tipos de vidrios &oacute;pticos.</p><p>El lantano impuro se utiliza para fabricar piedras para encendedores.</p>',
+            'impacto' => '<p>El Lantano es introducido en el ambiente en muchos lugares diferentes, mayoritariamente por industrias que procesan el petr&oacute;leo. Este puede tambi&eacute;n entrar en el ambiente cuando los equipos de las casas son tirados a las basuras. El Lantano podr&aacute; gradualmente acumularse en suelos y agua y eventualmente podr&aacute; acumularse en humanos, animales y particulas del suelo. En animales acu&aacute;ticos el Lantano causa da&ntilde;o en las c&eacute;lulas de membranas, lo cual tiene bastantes influencias negativas en la reproducci&oacute;n y las funciones del sistema nervioso.</p>',
+            'imagen' => '057.JPG'
+        ]);
+        $this->updateDetalleElemento(57);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 58,
+            'aplicacion' => '<p>Se utiliza en la preparaci&oacute;n de aleaciones para piedras de encendedor.</p><p>Los compuestos de cerio se emplean en la fabricaci&oacute;n de vidrios, cer&aacute;micas, filamentos y c&eacute;lulas fotoel&eacute;ctricas.</p><p>El nitrato ceroso se usa como medicamento en el tratamiento de v&oacute;mitos y mareos cr&oacute;nicos.</p><p>El sulfato c&eacute;rico se utiliza como agente oxidante en qu&iacute;mica anal&iacute;tica, en fotograf&iacute;a y en hornos autolimpiables.</p>',
+            'impacto' => '<p>El cerio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El cerio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '058.JPG'
+        ]);
+        $this->updateDetalleElemento(58);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 59,
+            'aplicacion' => '<p>Se emplea en aleaciones con magnesio, en aleaciones para la fabricaci&oacute;n de piedras de encendedor, como desoxidante en tubos de vac&iacute;o.</p><p>Tambi&eacute;n se utiliza como colorante en la industria del vidrio y la cer&aacute;mica. Una mezcla de praseodimio y neodimio se usa en la fabricaci&oacute;n de vidrios filtrantes de la luz amarilla para protegerse de la intensa luz en las soldaduras.</p>',
+            'impacto' => '<p>El praseodimio se vierte al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El praseodimio se acumular&aacute; gradualmente en el suelo y en las aguas del suelo y esto llevar&aacute; finalmente al incremento de la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p>',
+            'imagen' => '059.JPG'
+        ]);
+        $this->updateDetalleElemento(59);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 60,
+            'aplicacion' => '<p>Se utiliza para la fabricaci&oacute;n de vidrios especiales como filtros de infrarrojo.</p><p>Una mezcla de praseodimio y neodimio se usa en la fabricaci&oacute;n de vidrios filtrantes de la luz amarilla para protegerse de la intensa luz en las soldaduras.</p><p>Tambi&eacute;n se usa como colorante en vidrios, cer&aacute;micas y barnices, en la fabricaci&oacute;n de algunos componentes electr&oacute;nicos (especialmente condensadores) y en algunas aleaciones para piedras de encendedor.</p><p>El &oacute;xido del metal, Nd<sub>2 </sub>O<sub>3</sub>, se usa en los tubos de televisi&oacute;n para aumentar el contraste y en l&aacute;seres.</p>',
+            'impacto' => '<p>El neodimio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El neodimio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '060.JPG'
+        ]);
+        $this->updateDetalleElemento(60);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',
