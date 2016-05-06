@@ -501,6 +501,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(60);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 61,
+            'aplicacion' => '<p>Se usa en para preparar pinturas luminiscentes para se&ntilde;alizaciones de seguridad.</p><p>El metal se ha usado en pilas at&oacute;micas especiales y como fuente de part&iacute;culas beta en indicadores de espesor.</p><p>Por sus caracter&iacute;sticas puede ser utilizado como fuente para aparatos port&aacute;tiles de radiograf&iacute;a y como fuente auxiliar de energ&iacute;a en sat&eacute;lites y sondas espaciales.</p>',
+            'impacto' => '<p>El prometio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El prometio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '061.JPG'
+        ]);
+        $this->updateDetalleElemento(61);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 62,
+            'aplicacion' => '<p>El uso principal es la elaboraci&oacute;n de imanes permanentes, siendo el SmCoS<sub>5 </sub> la sustancia con mayor resistencia a la desmagnetizaci&oacute;n conocida hasta el momento.</p><p>El samario se usa para dopar los cristales de fluoruro de calcio para uso &oacute;ptico en m&aacute;seres y l&aacute;seres.</p><p>En la industria cinematogr&aacute;fica se usa el samario, conjuntamente con otras tierras raras, en algunos dispositivos de iluminaci&oacute;n.</p><p>Los compuestos se usan para algunas cer&aacute;micas y vidrios &oacute;pticos especiales opacos a la radiaci&oacute;n infrarroja.</p><p>El &oacute;xido de samario se usa en las varillas de control de algunos reactores nucleares y como catalizador en la deshidrataci&oacute;n y deshidrogenaci&oacute;n del alcohol et&iacute;lico.</p>',
+            'impacto' => '<p>El samario es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El samario se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '062.JPG'
+        ]);
+        $this->updateDetalleElemento(62);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 63,
+            'aplicacion' => '<p>Se usa para absorber neutrones en reactores nucleares y algunos de sus compuestos, como el vanadato de itrio y europio, se utilizan en los tubos de imagen de los televisores en color porque el europio produce fosforescencia roja al ser bombardeado con electrones.</p><p>El dopaje de ciertos tipos de pl&aacute;sticos con europio permite su uso como material l&aacute;ser.</p>',
+            'impacto' => '<p>El europio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El europio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '063.JPG'
+        ]);
+        $this->updateDetalleElemento(63);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 64,
+            'aplicacion' => '<p>Como la mayor parte de las tierras raras se usa en aleaciones para la industria electr&oacute;nica, sobre todo para condensadores y m&aacute;seres.</p><p>Tambi&eacute;n se emplea en hornos de alta temperatura y en aparatos para el enfriamiento magn&eacute;tico.</p><p>Se utiliza como componente de las varillas de control en reactores nucleares por su gran capacidad para retener los neutrones.</p><p>Los compuestos se usan en la cat&aacute;lisis de polimerizaci&oacute;n de hidrocarburos, en la fabricaci&oacute;n de tubos de imagen para los televisores a color y en dispositivos para microondas.</p><p>Se ha encontrado que una proporci&oacute;n aproximada del 1% de gadolinio mejora las propiedades del hierro y el cromo haci&eacute;ndolos m&aacute;s resistentes a la oxidaci&oacute;n y a las temperaturas elevadas.</p>',
+            'impacto' => '<p>El gadolinio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El gadolinio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '064.JPG'
+        ]);
+        $this->updateDetalleElemento(64);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 65,
+            'aplicacion' => '<p>Tiene aplicaci&oacute;n en aleaciones, materiales refractarios y aparatos electr&oacute;nicos. El borato de sodio y terbio se usa en dispositivos transistorizados, el &oacute;xido, Tb<sub>2</sub>O<sub>3 </sub>, se usa como activador del verde en los tubos de imagen de televisores en color.</p><p>Puede usarse junto con el ZrO<sub>2 </sub> como estabilizador en las c&eacute;lulas de combustible que operan a temperatura elevada.</p>',
+            'impacto' => '<p>El terbio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El terbio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '065.JPG'
+        ]);
+        $this->updateDetalleElemento(65);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 66,
+            'aplicacion' => '<p>Aunque no se han encontrado a&uacute;n muchas aplicaciones, su facilidad para la absorci&oacute;n de neutrones y su alto punto de fusi&oacute;n sugieren usos del elemento en dispositivos de control del flujo de neutrones y para aleaciones con aceros inoxidables especiales.</p><p>En combinaci&oacute;n con el vanadio y otras tierras raras, se utiliza en la fabricaci&oacute;n de materiales para l&aacute;seres y para tubos de imagen en los televisores en color (Dy<sub>2 </sub>O<sub>3 </sub>).</p><p>Algunos compuestos mixtos de disprosio-cadmio se han utilizado como fuentes de radiaci&oacute;n infrarroja para estudiar algunas reacciones qu&iacute;micas.</p><p>Un &oacute;xido de disprosio-n&iacute;quel se utiliza para la fabricaci&oacute;n de varillas de control para los reactores nucleares ya que &eacute;stas son poco sensibles a las variaciones de volumen tras bombardeos prolongados con neutrones.</p>',
+            'impacto' => '<p>El disprosio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El disprosio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '066.JPG'
+        ]);
+        $this->updateDetalleElemento(66);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 67,
+            'aplicacion' => '<p>Tiene pocas aplicaciones pr&aacute;cticas, aunque se ha usado como catalizador en reacciones qu&iacute;micas industriales y tambi&eacute;n para la fabricaci&oacute;n de algunos dispositivos electr&oacute;nicos.</p>',
+            'impacto' => '<p>El holmio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El holmio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '067.JPG'
+        ]);
+        $this->updateDetalleElemento(67);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 68,
+            'aplicacion' => '<p>Se usa para mejorar la maleabilidad del vanadio y para incrementar la absorci&oacute;n infrarroja en el vidrio.</p><p>Tiene aplicaci&oacute;n como amplificador de las se&ntilde;ales d&eacute;biles en la tecnolog&iacute;a de la fibra &oacute;ptica y se usa en la fabricaci&oacute;n de l&aacute;seres.</p><p>El &oacute;xido de erbio (III) se usa para dar al vidrio un tono rosado y tambi&eacute;n como colorante para barnices y esmaltes.</p>',
+            'impacto' => '<p>El erbio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El erbio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '068.JPG'
+        ]);
+        $this->updateDetalleElemento(68);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 69,
+            'aplicacion' => '<p>A causa de su elevado coste y su dificultosa extracci&oacute;n no se le han encontrado muchas aplicaciones.</p><p>El <sup>169</sup>Tm, tras ser bombardeado con neutrones para hacerlo radiactivo, y algunos de sus compuestos se utilizan como fuente de rayos X para las m&aacute;quinas port&aacute;tiles de radiograf&iacute;a.</p><div>El tulio natural puede tener aplicaci&oacute;n en la fabricaci&oacute;n de materiales cer&aacute;micos con propiedades magn&eacute;ticas para los equipos de microondas y se ha planteado la posibilidad de utilizar el <sup>171</sup>Tm como fuente de energ&iacute;a.</div>',
+            'impacto' => '<p>El tulio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El tulio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '069.JPG'
+        ]);
+        $this->updateDetalleElemento(69);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 70,
+            'aplicacion' => '<p>Tiene aplicaciones potenciales en aleaciones, electr&oacute;nica, y materiales magn&eacute;ticos. Se han conseguido gemas sint&eacute;ticas de silicatos de iterbio.</p>',
+            'impacto' => '<p>El iterbio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El iterbio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p>',
+            'imagen' => '070.JPG'
+        ]);
+        $this->updateDetalleElemento(70);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',
