@@ -661,6 +661,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(80);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 81,
+            'aplicacion' => '<p>Aleado con mercurio forma una aleaci&oacute;n l&iacute;quida que congela a -60&ordm;C y se utiliza para term&oacute;metros de bajas temperaturas. El sulfato de talio, que es inoloro, ins&iacute;pido y muy venenoso, se usa para exterminar roedores e insectos.</p><p>El sulfuro de talio se emplea en la fabricaci&oacute;n de c&eacute;lulas fotoel&eacute;ctricas sesibles a las radiaciones infrarrojas.</p><p>En algunos sistemas militares de comunicaci&oacute;n se han utilizado los cristales de bromoyoduro de talio como transmisores de la radiaci&oacute;n infrarroja y los cristales de oxisulfuro de talio como receptores de la misma.</p>',
+            'impacto' => '<p>El Talio es soluble en agua en parte y consecuentemente este puede esparcirse en el agua subterr&aacute;nea cuando los suelos contienen grandes cantidades de este. El Talio tambi&eacute;n puede esparcirse por la absorci&oacute;n del lodo. Hay indicadores de que el Talio es muy m&oacute;vil en los suelos.</p><p>El Talio es my t&oacute;xico par las ratas y es aplicado como raticida por esta cualidad. El Talio tambi&eacute;n tiene efectos negativos sobre las plantas, como el cambio de color en las hojas y la disminuci&oacute;n del crecimiento. Mam&iacute;feros, como los conejos, son suceptibles a los efectos t&oacute;xicos del Talio como los humanos.</p>',
+            'imagen' => '081.JPG'
+        ]);
+        $this->updateDetalleElemento(81);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 82,
+            'aplicacion' => '<p>Pr&aacute;cticamente la mitad de la producci&oacute;n de plomo se destina a la fabricaci&oacute;n de bater&iacute;as.</p><p>En algunos usos como aditivo para la gasolina y pigmento para tintas y pinturas est&aacute; siendo reemplazado por su car&aacute;cter venenoso y contaminante.</p><p>En otros como tuber&iacute;as, tipos de imprenta y recubrimientos de cables est&aacute; siendo sustituido por otros materiales de mejores cualidades.</p><p>No obstante se utiliza profusamente en revestimientos y enseres contra las radiaciones, para soldadura (aleado con Sn), en la insonorizaci&oacute;n de edificios, en la fabricaci&oacute;n de perdigones (aleado con As), etc.</p><p>Sus compuestos tienen tambi&eacute;n m&uacute;ltiples aplicaciones en la industria del vidrio como aditivo y colorante, en electr&oacute;nica para tubos de televisi&oacute;n, en tintes, barnices, pinturas anticorrosivas (minio), como estabilizantes en la industria de los pl&aacute;sticos, en algunos insecticidas, etc.</p>',
+            'impacto' => '<p>El Plomo ocurre de forma natural en el ambiente, pero las mayores concentraciones que son encontradas en el ambiente son el resultado de las actividades humanas.</p><p>Debido a la aplicaci&oacute;n del plomo en gasolinas un ciclo no natural del Plomo tiene lugar. En los motores de los coches el Plomo es quemado, eso genera sales de Plomo (cloruros, bromuros, &oacute;xidos) se originar&aacute;n.</p><p>El Plomo se acumula en los cuerpos de los organismos acu&aacute;ticos y organismos del suelo. Estos experimentar&aacute;n efectos en su salud por envenenamiento por Plomo. Los efectos sobre la salud de los crust&aacute;ceos puede tener lugar incluso cuando s&oacute;lo hay peque&ntilde;as concentraciones de Plomo presente.</p><p>Las funciones en el fitoplancton pueden ser perturbados cuando interfiere con el Plomo. El fitoplancton es una fuente importante de producci&oacute;n de ox&iacute;geno en mares y muchos grandes animales marinos lo comen. Este es el porqu&eacute; nosotros ahora empezamos a preguntarnos si la contaminaci&oacute;n por Plomo puede influir en los balances globales.</p>',
+            'imagen' => '082.JPG'
+        ]);
+        $this->updateDetalleElemento(82);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 83,
+            'aplicacion' => '<p>Se utiliza principalmente en aleaciones de bajo punto de fusi&oacute;n y para la industria electr&oacute;nica.</p><p>Los compuestos se usan en cosm&eacute;ticos, barnices y medicinas (como el peptibismol BiONO<sub>3</sub>.H<sub>2</sub>O).</p>',
+            'impacto' => '<p>El bismuto met&aacute;lico no se considera t&oacute;xico y presenta una amenaza m&iacute;nima para el medio ambiente. Los compuestos del bismuto son generalmente muy poco solubles pero deben ser manejados con cuidado, ya que solo se dispone de informaci&oacute;n limitada de sus efectos y destino en el medio ambiente.</p>',
+            'imagen' => '083.JPG'
+        ]);
+        $this->updateDetalleElemento(83);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 84,
+            'aplicacion' => '<p>Los is&oacute;topos del polonio son una buena fuente de radiaci&oacute;n alfa pura. Se usan en la investigaci&oacute;n nuclear con elementos tales como el berilio que emiten neutrones cuando son bombardeados con part&iacute;culas alfa.</p><p>Tambi&eacute;n se usa en dispositivos que ionizan el aire para eliminar acumulaci&oacute;n de cargas electrost&aacute;ticas en algunos procesos de fotograf&iacute;a e impresi&oacute;n.</p>',
+            'impacto' => '<p>No se conocen bien las fuerzas ambientales y bioqu&iacute;micas que pueden tender a reconcentrar estos materiales t&oacute;xicos en las c&eacute;lulas vivas.</p><p>Aunque el polonio se da en la naturaleza, se ha vuelto mucho m&aacute;s disponible para entrar en el agua, la comida, las c&eacute;lulas vivas y los tejidos a partir de la explosi&oacute;n de la miner&iacute;a que empez&oacute; poco despu&eacute;s de la segunda guerra mundial.</p>',
+            'imagen' => '084.JPG'
+        ]);
+        $this->updateDetalleElemento(84);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 85,
+            'aplicacion' => '<p>No tiene usos conocidos.</p>',
+            'impacto' => '<p>El &aacute;stato no se da en cantidades significativas en la biosfera, as&iacute; que normalmente nunca presenta riesgos.</p>',
+            'imagen' => '085.JPG'
+        ]);
+        $this->updateDetalleElemento(85);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 86,
+            'aplicacion' => '<p>Los minerales de uranio desprenden rad&oacute;n y la presencia de emanaciones radioactivas de &eacute;ste en ciertas zonas delatan la existencia de estos minerales, lo que constituye una t&eacute;cnica de prospecci&oacute;n geoqu&iacute;mica.</p><p>Este is&oacute;topo puede usarse en el tratamiento de algunos tumores malignos. El gas se pone en un tubo, com&uacute;nmente hecho de vidrio o de oro, llamado semilla de rad&oacute;n, que se introduce en el tejido enfermo.</p>',
+            'impacto' => '<p>Rad&oacute;n es un compuesto radioactivo, el cual se da raramente en la naturaleza. La mayor&iacute;a de los compuestos del rad&oacute;n encontrados en el medio ambiente provienen de las actividades humanas. El rad&oacute;n entra en el medio ambiente a trav&eacute;s del suelo, por las minas de uranio y fosfato, y por la combusti&oacute;n de carb&oacute;n.</p><p>Una parte del rad&oacute;n que se encuentra en el suelo se mover&aacute; a la superficie y entrar&aacute; en el aire a trav&eacute;s de la evaporaci&oacute;n. En el aire, los compuestos del rad&oacute;n se acoplar&aacute;n al polvo y otras part&iacute;culas. El rad&oacute;n tambi&eacute;n se puede mover hacia abajo en el suelo y alcanzar las aguas superficiales. Sin embargo, la mayor parte del rad&oacute;n permanecer&aacute; en el suelo.</p><p>El rad&oacute;n tiene una vida media radiactiva de alrededor de cuatro d&iacute;as; esto significa que la mitad de una cantidad dada de rad&oacute;n se degradar&aacute; en otros componentes, normalmente compuestos menos da&ntilde;inos, cada cuatro d&iacute;as.</p>',
+            'imagen' => '086.JPG'
+        ]);
+        $this->updateDetalleElemento(86);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 87,
+            'aplicacion' => '<p>No tiene usos.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta, no existe raz&oacute;n para considerar los efectos del francio en el medio ambiente.</p>',
+            'imagen' => '087.JPG'
+        ]);
+        $this->updateDetalleElemento(87);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 88,
+            'aplicacion' => '<p>El radio ha sido durante mucho tiempo el &uacute;nico radiois&oacute;topo utilizado tratamientos de irradiaci&oacute;n terap&eacute;utica.</p><p>La irradiaci&oacute;n con radio tiene un efecto nocivo sobre las c&eacute;lulas vivas, y la sobreexposici&oacute;n produce quemaduras.</p><p>Las c&eacute;lulas cancerosas, sin embargo, son frecuentemente m&aacute;s sensibles a la radiaci&oacute;n que las c&eacute;lulas normales, y pueden matarse sin da&ntilde;ar seriamente los tejidos sanos si se controla y dirige adecuadamente la radiaci&oacute;n.</p><p>El radio se usa ahora &uacute;nicamente en el tratamiento de unos pocos tipos de c&aacute;ncer.</p>',
+            'impacto' => '<p>El Radio es constantemente producido por la desintegraci&oacute;n radiactiva del uranio y del torio. El Radio est&aacute; presente en bajas cantidades en rocas y suelo y est&aacute; unido a estos materiales fuertemente. Es tambi&eacute;n posible encontrarlo en el aire. Elevadas concentraciones de Radio pueden existir en el agua en algunas localizaciones. Como resultado de los procesos mineros del ur&aacute;neo elevados niveles de Radio en el agua son encontrado en las aguas cercanas a las minas de ur&aacute;neo. Las plantas absorben ur&aacute;neo del suelo. Los animales que comen esas plantas acumulan el ur&aacute;neo y finalmente, el radio puede encontrarse en peces y otros organismos acu&aacute;ticos y se de la biomagnificaci&oacute;n en la cadena tr&oacute;fica.</p>',
+            'imagen' => '088.JPG'
+        ]);
+        $this->updateDetalleElemento(88);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 89,
+            'aplicacion' => '<p>No tiene usos.</p>',
+            'impacto' => '<p>El desarrollo de la tecnolog&iacute;a nuclear ha estado acompa&ntilde;ada por la liberaci&oacute;n brutos , as&iacute; como m&iacute;nima de la radiactividad a la atm&oacute;sfera , el suelo , los oc&eacute;anos , mares , y la capa fre&aacute;tica , apareciendo en todo el mundo en el animal, vegetal y la materia inerte. La radiaci&oacute;n pasa de las especies y se concentra a trav&eacute;s de la cadena alimentaria , sometiendo a otros animales y los seres humanos a sus efectos perjudiciales.</p><p>Ac es extremadamente radiactivo . da&ntilde;os radiactividad del acervo gen&eacute;tico no s&oacute;lo de los seres humanos , sino de todos los seres vivos , los c&aacute;nceres que causan da&ntilde;o al sistema inmunol&oacute;gico , , leucemia , abortos , mortinatos , deformidades y problemas de fertilidad. Adem&aacute;s, el da&ntilde;o gen&eacute;tico de exposici&oacute;n a la radiaci&oacute;n es acumulativa durante vidas y generaciones.</p>',
+            'imagen' => '089.JPG'
+        ]);
+        $this->updateDetalleElemento(89);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 90,
+            'aplicacion' => '<p>Un importante uso del torio es la preparaci&oacute;n de <em>camisas</em> Welsbach, que contienen de &oacute;xido de torio con un 1% de &oacute;xido de cerio y otras sustancias, que se utilizan en las luces port&aacute;tiles de gas.</p><p>Es importante como fuente potencial de combustible at&oacute;mico, porque el bombardeo de torio-232 con neutrones lentos produce el is&oacute;topo fisible U-233. Este proceso es comparable al de obtenci&oacute;n de Pu-239 fisible bombardeando U-238 no fisible con neutrones r&aacute;pidos.</p><p>No obstante, a&uacute;n quedan algunos a&ntilde;os para que el torio sea considerado alternativa de otros combustibles nucleares ya que su utilizaci&oacute;n industrial se encuentra todav&iacute;a en fase de experimentaci&oacute;n.</p><p>El torio metal se usa en aleaciones de magnesio y como componente estabilizador en tubos de vac&iacute;o. Tambi&eacute;n se utiliza en la industria electr&oacute;nica como detector de ox&iacute;geno.</p><p>El &oacute;xido ThO<sub>2 </sub> se usa para los electrodos y filamentos ligeros, para controlar el tama&ntilde;o de grano del wolframio usado en las l&aacute;mparas el&eacute;ctricas y para fabricar crisoles de laboratorio para altas temperaturas y tambi&eacute;n como catalizador en la conversi&oacute;n del amon&iacute;aco en &aacute;cido n&iacute;trico, en la obtenci&oacute;n de hidrocarburos a partir del carbono, en las operaciones de cracking del petr&oacute;leo y en la producci&oacute;n de &aacute;cido sulf&uacute;rico.</p><p>Los vidrios que contienen &oacute;xido de torio el tiene un alto &iacute;ndice de refracci&oacute;n y una baja dispersi&oacute;n por lo que se utilizan en la fabricaci&oacute;n de lentes de calidad para c&aacute;maras e instrumentos cient&iacute;ficos.</p>',
+            'impacto' => '<p><em>Estabilidad ambiental:</em>&nbsp;El torio reaccionar&aacute; lentamente con el agua, el ox&iacute;geno y otros compuestos para formar una variedad de compuestos del torio.</p><p><em>Efectos del material en plantas y animales:</em>&nbsp;Debido al tama&ntilde;o del producto, no se esperan efectos ambientales inusuales de estos productos; sin embargo, grandes escapes de torio pueden ser da&ntilde;inos para las plantas y animales afectados.</p><p><em>Efectos de los productos qu&iacute;micos en la vida acu&aacute;tica:</em>&nbsp;Debido al tama&ntilde;o del producto y a la forma del producto, estos productos no se puede anticipar que causen efectos adversos en la vida acu&aacute;tica; sin embargo, grandes escapes de torio en un cuerpo de agua pueden ser da&ntilde;inos para las plantas acu&aacute;ticas y los animales.</p><p>La eliminaci&oacute;n de los vertidos debe realizarse de acuerdo con las adecuadas regulaciones federales, estatales y locales.</p>',
+            'imagen' => '090.JPG'
+        ]);
+        $this->updateDetalleElemento(90);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',
