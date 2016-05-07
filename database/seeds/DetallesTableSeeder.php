@@ -581,6 +581,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(70);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 71,
+            'aplicacion' => '<p>Se usa para el cracking catal&iacute;tico y en reacciones de hidrogenaci&oacute;n, alquilaci&oacute;n y polimerizaci&oacute;n. Encuentra tambi&eacute;n aplicaciones como captador de impurezas en la industria metal&uacute;rgica.</p><p>Si el Lu se irradia con neutrones se convierte en una fuente pura de radiaci&oacute;n beta.</p>',
+            'impacto' => '<p>El lutecio es vertido al medio ambiente en muchos lugares diferentes, principalmente por industrias productoras de petr&oacute;leo. Tambi&eacute;n puede entrar en el medio ambiente cuando se tiran los equipos dom&eacute;sticos. El lutecio se acumular&aacute; gradualmente en los suelos y en el agua de los suelos y esto llevar&aacute; finalmente a incrementar la concentraci&oacute;n en humanos, animales y part&iacute;culas del suelo.</p><p>En los animales acu&aacute;ticos provoca da&ntilde;os a las membranas celulares, lo que tiene varias influencias negativas en la reproducci&oacute;n y en las funciones del sistema nervioso.</p>',
+            'imagen' => '071.JPG'
+        ]);
+        $this->updateDetalleElemento(71);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 72,
+            'aplicacion' => '<p>El hafnio se usa en la fabricaci&oacute;n de filamentos el&eacute;ctricos en aleaci&oacute;n con wolframio y t&aacute;ntalo.</p><p>Por su resistencia a las altas temperaturas, se usa con el circonio como material estructural en las plantas nucleares de energ&iacute;a.</p><p>Se utiliza en la fabricaci&oacute;n de barras de control para reactores nucleares, por su capacidad de absorci&oacute;n de neutrones.</p>',
+            'impacto' => '<p><em>Efectos en los animales:</em>&nbsp;Son escasos los datos disponibles acerca de la toxicidad del hafnio met&aacute;lico o su polvo. Los estudio con animales indican que los compuestos del hafnio provocan irritaciones de los ojos, la piel y la membrana mucosa, y da&ntilde;os hep&aacute;ticos. La LD 50 oral del tetracloruro de hafnio en ratas es de 2,362 mg/kg, y la LD 50 intraperitoneal en ratones para el oxicloruro de hafnio es de 112 mg/k.</p><p>(LD 50: Dosis Letal 50. Dosis individual de una sustancia que provoca la muerte del 50% de la poblaci&oacute;n animal debido a la exposici&oacute;n a la sustancia por cualquier v&iacute;a distinta a la inhalaci&oacute;n. Normalmente expresada como miligramos o gramos de material por kilogramo de peso del animal.)</p>',
+            'imagen' => '072.JPG'
+        ]);
+        $this->updateDetalleElemento(72);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 73,
+            'aplicacion' => '<p>Se usa para aleaciones resistentes a la corrosi&oacute;n en plantas qu&iacute;micas y en aeron&aacute;utica.</p><p>Debido a la tolerancia del tejido humano a este metal y de la resistencia de &eacute;ste a los &aacute;cidos corporales, se emplea en la fabricaci&oacute;n de instrumentos quir&uacute;rgicos y de piezas para la sujeci&oacute;n de fracturas &oacute;seas.</p><p>Es m&aacute;s resistente que el platino a muchos agentes corrosivos y por ello se utiliza, en lugar de &eacute;ste, en diversos materiales de laboratorio.</p><p>El carburo de t&aacute;ntalo se usa en herramientas para cortar acero. Se emplea tambi&eacute;n en la fabricaci&oacute;n de condensadores para circuitos electr&oacute;nicos y rectificadores de tensi&oacute;n en circuitos como por ejemplo en los sistemas de se&ntilde;alizaci&oacute;n ferroviaria.</p><p>El pent&oacute;xido de t&aacute;ntalo se utiliza para incrementar el poder de refracci&oacute;n en vidrios &oacute;pticos especiales.</p>',
+            'impacto' => '<p>No verter el material al medio ambiente sin los adecuados permisos gubernamentales. Aislar los &oacute;xidos de tantalio para prevenir la poluci&oacute;n del medio.</p>',
+            'imagen' => '073.JPG'
+        ]);
+        $this->updateDetalleElemento(73);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 74,
+            'aplicacion' => '<p>En estado puro se utiliza en la fabricaci&oacute;n de filamentos para l&aacute;mparas el&eacute;ctricas, resistencias para hornos el&eacute;ctricos con atm&oacute;sfera reductoras o neutras, contactos el&eacute;ctricos para los distribuidores de autom&oacute;vil, antic&aacute;todos para tubos de rayos X y de televisi&oacute;n.</p><p>Tiene usos importantes en aleaciones para herramientas de corte a elevada velocidad (W<sub>2</sub>C), en la fabricaci&oacute;n de buj&iacute;as y en la preparaci&oacute;n de barnices (WO<sub>3</sub>) y mordientes en tintorer&iacute;a.</p><p>Los wolframatos de calcio y magnesio se utilizan en la fabricaci&oacute;n de tubos fluorescentes.</p><p>El carburo de wolframio, estable a temperaturas del orden de 500&ordm;C, tambi&eacute;n se usa como lubricante seco.</p>',
+            'impacto' => '<p>No se espera que este producto sea peligroso para el medio ambiente. No existen datos espec&iacute;ficos relativos a la ecotoxicidad de este producto</p>',
+            'imagen' => '074.JPG'
+        ]);
+        $this->updateDetalleElemento(74);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 75,
+            'aplicacion' => '<p>Se usa en aleaciones para termopares (con el wolframio), varillas de soldadura, imanes criog&eacute;nicos y para filamentos el&eacute;ctricos y de flashes fotogr&aacute;ficos.</p><p>Se usa tambi&eacute;n como catalizador.</p>',
+            'impacto' => '<p>No se ha encontrado informaci&oacute;n relativa a la toxicidad ambiental del renio.</p>',
+            'imagen' => '075.JPG'
+        ]);
+        $this->updateDetalleElemento(75);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 76,
+            'aplicacion' => '<p>Se utiliza como aditivo endurecedor en las aleaciones. Aleado con el platino, se usa para patrones de medida y peso.</p><p>El uso principal del metal est&aacute; en el aleaci&oacute;n osmiridio usada para la fabricaci&oacute;n de puntas, pivotes, plumillas, etc.</p><p>La disoluci&oacute;n de tetr&oacute;xido de osmio se utiliza como tintura para la observaci&oacute;n de tejidos al microscopio.</p>',
+            'impacto' => '<p>No se ha encontrado informaci&oacute;n relativa a los efectos del osmio sobre el medio ambiente. Sin embargo, se espera que su ecotoxicidad sea muy baja debido a su fuerza como oxidante, lo que le hace ser f&aacute;cilmente convertido en su di&oacute;xido, una forma del metal que es razonablemente inocua.</p>',
+            'imagen' => '076.JPG'
+        ]);
+        $this->updateDetalleElemento(76);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 77,
+            'aplicacion' => '<p>Una aleaci&oacute;n especial con 10% de iridio y 90% de platino se usa como patr&oacute;n para la unidad de masa y de longitud que se conservan en Par&iacute;s. Esta aleaci&oacute;n es mucho m&aacute;s dura que el platino puro.</p><p>Aleaciones con un porcentaje algo mayor de iridio se usan para hacer instrumental de precisi&oacute;n, aparatos quir&uacute;rgicos, plumillas de estilogr&aacute;ficas, filamentos el&eacute;ctricos, pares termoel&eacute;ctricos, etc.</p><p>En la elaboraci&oacute;n del &aacute;cido n&iacute;trico se utiliza como catalizador.</p>',
+            'impacto' => '<p>No permitir que el producto alcance las aguas del suelo, las reservas de agua o los sistemas de alcantarillado.</p>',
+            'imagen' => '077.JPG'
+        ]);
+        $this->updateDetalleElemento(77);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 78,
+            'aplicacion' => '<p>Debido a su inercia qu&iacute;mica y a su alto punto de fusi&oacute;n se utiliza, aleado normalmente con algo de iridio, en la construcci&oacute;n de aparatos de laboratorio como crisoles, platos de combusti&oacute;n, evaporadores, pinzas, etc.</p><p>Se utiliza en contactores, en elementos calefactores y pares termoel&eacute;ctricos para la medida de altas temperaturas.</p><p>Tiene usos en joyer&iacute;a y en medicina para la preparaci&oacute;n de algunas drogas antitumorales y en rellenos dentales.</p><p>La esponja de platino, platino finamente dividido, se utiliza como catalizador en procesos como la producci&oacute;n de &aacute;cido n&iacute;trico, &aacute;cido sulf&uacute;rico y metanal y en el cracking de hidrocarburos.</p>',
+            'impacto' => '<p>La aplicaci&oacute;n del platino en productos met&aacute;licos no es conocido que cause muchos problemas ambientales, pero sabemos que causa problemas de salud serios en el lugar de trabajo. El Platino es emitido al aire a trav&eacute;s de los escapes de los coches que utilizan gasolina. Consecuentemente, los niveles de Platino en el aire pueden ser m&aacute;s altos en ciertas localizaciones, por ejemplo en garajes, en t&uacute;neles y en terrenos de empresas de camiones.</p><p>Los efectos del Platino sobre los animales y el ambiente posiblemente no hayn sido investigado todav&iacute;a extensamente. La &uacute;nica cosa que conocemos es que el Platino se acumular&aacute; en las raices de plantas despu&eacute;s de ser tomado. Si se come raices de plantas que contengan Platino puede hacer un da&ntilde;o en los animales y humanos, pero no est&aacute; todav&iacute;a claro. Los microorganismos pueden ser capaces de convertir las substancias de platino en sustancias m&aacute;s peligrosas en suelos, pero sobre este tema nosotros tambi&eacute;n tenemos poca informaci&oacute;n.</p>',
+            'imagen' => '078.JPG'
+        ]);
+        $this->updateDetalleElemento(78);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 79,
+            'aplicacion' => '<p>El oro es conocido por el hombre desde la prehistoria. Se valora no s&oacute;lo por su belleza sino por su resistencia a la corrosi&oacute;n y por su facilidad de manipulaci&oacute;n. Adem&aacute;s, el oro era m&aacute;s f&aacute;cil de obtener en forma pura que el resto de los metales.</p><p>A causa de su relativa escasez, el oro se usa como base para transacciones monetarias internacionales.</p><p>Se utiliza en monedas y joyas aleado con otros metales para darle la dureza necesaria. Tambi&eacute;n se usa en forma de pan de oro en el dorado y rotulado art&iacute;stico.</p><p>Tiene otros usos como colorante rojo para el vidrio, elaboraci&oacute;n de piezas dentales y en la industria electr&oacute;nica.</p><p>El is&oacute;topo Au-198 se usa como fuente de radiaci&oacute;n en la investigaci&oacute;n biol&oacute;gica y en el tratamiento del c&aacute;ncer.</p>',
+            'impacto' => '<p>La ecotoxicidad del oro no ha sido evaluada. Sin embargo, se espera que la degradaci&oacute;n del oro bajo condiciones aerobias sea muy pobre y no hay evidencia que sugiera que pueda crear problemas ecol&oacute;gicos al ser vertido en el medio. Ya que el oro es insoluble, se cree que tiene caracter&iacute;sticas m&iacute;nimas de bioacumulaci&oacute;n y biodisponibilidad.</p>',
+            'imagen' => '079.JPG'
+        ]);
+        $this->updateDetalleElemento(79);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 80,
+            'aplicacion' => '<p>El mercurio se usa en term&oacute;metros porque el cambio en su volumen por cada grado de elevaci&oacute;n o disminuci&oacute;n de la temperatura es el mismo es decir, su coeficiente de dilataci&oacute;n es pr&aacute;cticamente constante.</p><p>Se utiliza tambi&eacute;n en otros tipos de aparatos cient&iacute;ficos como la bomba de vac&iacute;o, bar&oacute;metros y rectificadores e interruptores el&eacute;ctricos.</p><p>El vapor de mercurio se usa en l&aacute;mparas como fuente de rayos ultravioleta para usos dom&eacute;sticos y en procesos de esterilizaci&oacute;n del agua.</p><p>El mercurio se combina con todos los metales comunes, excepto hierro y platino, para formar aleaciones que se llaman amalgamas. Las amalgamas de cinc y sodio se utilizan como agentes reductores. La amalgama de esta&ntilde;o se usa todav&iacute;a como un relleno dental.</p><p>En un m&eacute;todo de extraer oro y plata desde sus minerales, los metales se combinan con el mercurio que se separa posteriormente por destilaci&oacute;n.</p><p>Otros usos son en insecticidas, colorantes y protectores para la madera.</p>',
+            'impacto' => '<p>El Mercurio entra en el ambiente como resultado de la ruptura de minerales de rocas y suelos a trav&eacute;s de la exposici&oacute;n al viento y agua. La liberaci&oacute;n de Mercurio desde fuentes naturales ha permanecido en el mismo nivel a trav&eacute;s de los a&ntilde;os. Todav&iacute;a las concentraciones de Mercurio en el medioambiente est&aacute;n creciendo; esto es debido a la actividad humana.</p><p>La mayor&iacute;a del Mercurio liberado por las actividades humanas es liberado al aire, a trav&eacute;s de la quema de productos f&oacute;siles, miner&iacute;a, fundiciones y combusti&oacute;n de res&iacute;duos s&oacute;lidos</p><p>Aguas superficiales &aacute;cidas pueden contener significantes cantidades de Mercurio. Cuando los valores de pH est&aacute;n entre cinco y siete, las concentraciones de Mercurio en el agua se incrementar&aacute;n debido a la movilizaci&oacute;n del Mercurio en el suelo. El Mercurio que ha alcanzado las aguas superficiales o suelos los microorganismos pueden convertirlo en metil mercurio, una substancia que puede ser absorbida r&aacute;pidamente por la mayor&iacute;a de los organismos y es conocido que da&ntilde;a al sistema nervioso.</p>',
+            'imagen' => '080.JPG'
+        ]);
+        $this->updateDetalleElemento(80);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',
