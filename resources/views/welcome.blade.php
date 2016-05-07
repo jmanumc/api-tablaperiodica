@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tabla Periódica - API REST</title>
+        <title>Elemental - API REST</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -42,7 +42,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Tabla Periódica</div>
+                <div class="title">Elemental</div>
                 <div class="subtitle">API REST</div>
             </div>
         </div>
