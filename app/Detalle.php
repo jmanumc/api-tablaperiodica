@@ -12,7 +12,7 @@ class Detalle extends Model
      * @var array
      */
     protected $fillable = [
-        'elemento_id', 'aplicacion', 'impacto',
+        'elemento_id', 'aplicacion', 'impacto', 'imagen'
     ];
 
     /**
