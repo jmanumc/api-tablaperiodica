@@ -901,12 +901,68 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(110);
 
-        /*DB::table('detalles')->insert([
-            'elemento_id' => ,
-            'aplicacion' => '',
-            'impacto' => '',
-            'imagen' => '.JPG'
+        DB::table('detalles')->insert([
+            'elemento_id' => 111,
+            'aplicacion' => '<p>Al ser un elemento tan poco conocido en realidad y al producirse en cantidades sumamente min&uacute;sculas, el roentgenio carece de usos fuera del laboratorio, siendo &uacute;nicamente &uacute;til en el estudio y la investigaci&oacute;n cient&iacute;fica.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '111.JPG'
         ]);
-        $this->updateDetalleElemento();*/
+        $this->updateDetalleElemento(111);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 112,
+            'aplicacion' => '<p>Como es de esperarse, por sus caracter&iacute;sticas tan complejas y el poco conocimiento que se tiene sobre este peculiar elemento, su utilidad es pr&aacute;cticamente nula. Hoy en d&iacute;a,&nbsp;<strong>el copernicio se usa</strong> solamente para la investigaci&oacute;n cient&iacute;fica.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '112.JPG'
+        ]);
+        $this->updateDetalleElemento(112);
+        
+        DB::table('detalles')->insert([
+            'elemento_id' => 113,
+            'aplicacion' => '<p>Tal como lo hemos visto con los &uacute;ltimos elementos que venimos estudiando, el ununtrio es un elemento bastante in&uacute;til. Actualmente, <strong>el ununtrio se usa</strong> s&oacute;lo en la investigaci&oacute;n cient&iacute;fica y hasta ahora, apenas unos pocos &aacute;tomos se han creado.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '113.JPG'
+        ]);
+        $this->updateDetalleElemento(113);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 114,
+            'aplicacion' => '<p>Nuevamente, al ser un elemento tan poco conocido y tan, pero tan escaso (apenas unos pocos &aacute;tomos se han creado desde su descubrimiento), este elemento es de lo m&aacute;s in&uacute;til. En nuestros d&iacute;as, su m&iacute;nimo uso refiere a la investigaci&oacute;n cient&iacute;fica y no hay otro <strong>uso de&nbsp;flerovio</strong>&nbsp;conocido.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '114.JPG'
+        ]);
+        $this->updateDetalleElemento(114);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 115,
+            'aplicacion' => '<p>Como habr&aacute;s de imaginar, el unumpentio es un elemento pr&aacute;cticamente in&uacute;til, pero ello se debe a que a&uacute;n ignoramos mucho sobre sus propiedades. Hoy en d&iacute;a, <strong>el unumpentio se usa</strong> &uacute;nicamente para escasos estudios cient&iacute;ficos.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '115.JPG'
+        ]);
+        $this->updateDetalleElemento(115);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 116,
+            'aplicacion' => '<p>Apenas unos pocos <strong>&aacute;tomos de livermorio</strong> se han podido crear hasta hoy. Por estas razones y por lo desconocido que a&uacute;n resulta este elemento para la comunidad cient&iacute;fica, es pr&aacute;cticamente in&uacute;til. El &uacute;nico <strong>uso del livermorio</strong> refiere a la investigaci&oacute;n cient&iacute;fica.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '116.JPG'
+        ]);
+        $this->updateDetalleElemento(116);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 117,
+            'aplicacion' => '<p>El ununseptio es un elemento descubierto en forma muy reciente como para poder conocer sus verdaderas aplicaciones. Lo dif&iacute;cil de su producci&oacute;n tambi&eacute;n hace que sea muy escaso y por todas estas razones, es pr&aacute;cticamente in&uacute;til. Hoy en d&iacute;a, <strong>el uso del&nbsp;ununseptio </strong>se restringe&nbsp;a la investigaci&oacute;n cient&iacute;fica.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '117.JPG'
+        ]);
+        $this->updateDetalleElemento(117);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 118,
+            'aplicacion' => '<p>Por sus caracter&iacute;sticas, su enorme escasez y su descubrimiento tan reciente, a&uacute;n no sabemos realmente <strong>para qu&eacute; sirve el ununoctio</strong>. Actualmente, su uso est&aacute; ligado tan solo a la investigaci&oacute;n cient&iacute;fica.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '118.JPG'
+        ]);
+        $this->updateDetalleElemento(118);
     }
 }
