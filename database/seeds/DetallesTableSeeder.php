@@ -821,6 +821,86 @@ class DetallesTableSeeder extends Seeder
         ]);
         $this->updateDetalleElemento(100);
 
+        DB::table('detalles')->insert([
+            'elemento_id' => 101,
+            'aplicacion' => '<p>No tiene usos.</p>',
+            'impacto' => '<p>El mendelevio no se da en la naturaleza, y no ha sido encontrado en la corteza terrestre, por lo que no hay motivo para considerar sus efectos sobre el medio ambiente.</p>',
+            'imagen' => '101.JPG'
+        ]);
+        $this->updateDetalleElemento(101);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 102,
+            'aplicacion' => '<p>No tiene usos.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta, no existe raz&oacute;n para considerar las efectos del nobelio sobre el medio ambiente.</p>',
+            'imagen' => '102.JPG'
+        ]);
+        $this->updateDetalleElemento(102);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 103,
+            'aplicacion' => '<p>No tiene usos.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta, no existe raz&oacute;n para considerar las efectos del laurencio sobre el medio ambiente.</p>',
+            'imagen' => '103.JPG'
+        ]);
+        $this->updateDetalleElemento(103);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 104,
+            'aplicacion' => '<p>No tiene usos.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta (alrededor de 10 minutos), no existe raz&oacute;n para considerar los efectos del rutherfordio en el medio ambiente.</p>',
+            'imagen' => '104.JPG'
+        ]);
+        $this->updateDetalleElemento(104);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 105,
+            'aplicacion' => '<p>No tiene.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta (alrededor de 34 segundos), no existe raz&oacute;n para considerar los efectos del dubnio en el medio ambiente.</p>',
+            'imagen' => '105.JPG'
+        ]);
+        $this->updateDetalleElemento(105);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 106,
+            'aplicacion' => '<p>No tiene.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta (21 segundos), no existe raz&oacute;n para considerar los efectos del seaborgio en el medio ambiente.</p>',
+            'imagen' => '106.JPG'
+        ]);
+        $this->updateDetalleElemento(106);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 107,
+            'aplicacion' => '<p>No tiene usos.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta (0,44 segundos), no existe raz&oacute;n para considerar los efectos del bohrio en el medio ambiente.</p>',
+            'imagen' => '107.JPG'
+        ]);
+        $this->updateDetalleElemento(107);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 108,
+            'aplicacion' => '<p>No tiene.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta (12 minutos), no existe raz&oacute;n para considerar los efectos del hassio en el medio ambiente.</p>',
+            'imagen' => '108.JPG'
+        ]);
+        $this->updateDetalleElemento(108);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 109,
+            'aplicacion' => '<p>No tiene.</p>',
+            'impacto' => '<p>Debido a su vida media tan extremadamente corta (3,8 milisegundos), no existe raz&oacute;n para considerar los efectos del meitnerio en el medio ambiente.</p>',
+            'imagen' => '109.JPG'
+        ]);
+        $this->updateDetalleElemento(109);
+
+        DB::table('detalles')->insert([
+            'elemento_id' => 110,
+            'aplicacion' => '<p>El darmstadio es un elemento muy poco &uacute;til. Solo unos pocos &aacute;tomos de darmstadio se han producido en el laboratorio y por ello, su aplicaci&oacute;n es de las m&aacute;s escasas que existen. Hoy en d&iacute;a, <strong>el darmstadio se usa</strong> &uacute;nicamente en la investigaci&oacute;n cient&iacute;fica, siendo esta tambi&eacute;n m&iacute;nima.</p>',
+            'impacto' => '<p>Desconocido.</p>',
+            'imagen' => '110.JPG'
+        ]);
+        $this->updateDetalleElemento(110);
+
         /*DB::table('detalles')->insert([
             'elemento_id' => ,
             'aplicacion' => '',
